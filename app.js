@@ -7,7 +7,7 @@ let channels = [];
 let hls;
 
 // Cargar los canales desde el archivo JSON
-fetch('channels.json')
+fetch('./channels.json')
   .then(res => res.json())
   .then(data => {
     channels = data;
