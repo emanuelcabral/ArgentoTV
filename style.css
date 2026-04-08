@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  padding: 10px;
+  background: #1c1c1c;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+}
+
+#channel-list {
+  width: 30%;
+  height: 90vh;
+  overflow-y: auto;
+  background: #111;
+}
+
+.channel {
+  padding: 10px;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+}
+
+.channel:hover {
+  background: #222;
+}
+
+#player-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 95%;
+  max-height: 90vh;
+  background: black;
+}
