@@ -33,20 +33,6 @@
   { "name": "Net TV", "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8" },
 
 
-
-  { "name": "baby shark", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0009" },
-  { "name": "fashion TV", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0019" },
-  { "name": "Music Top", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0024" },
-  { "name": "Nhk World", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0025" },
-  { "name": "Tierra Mia", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0026" },
-  { "name": "TyC Sports arg", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0029" },
-  { "name": "Ok fm (canal de musica)", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0057" },
-  { "name": "canal de la ferrere", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0059" },
-  { "name": "Telecreativa", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0063" },
-
-
-
-
   { "name": "CNN En Español", "url": "" },
   { "name": "tnt sports", "url": "https://tigerhub-bd.vercel.app/Sports-zone/TNT-Sports-1/tracks-v1a1/mono.ts.m3u8" },
 
@@ -250,6 +236,144 @@
 {"name":"Canal 2 Ushuaia","info":"Ushuaia Capital HD","url":"https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8"},
 
 {"name":"Canal Drama","info":"Telenovelas Internacional HD","url":"https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"},
+
+
+
+
+  { "name": "baby shark", "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8" },
+  { "name": "fashion TV", "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8" },
+  { "name": "Music Top", "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8" },
+  { "name": "Nhk World", "url": "https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8" },
+  { "name": "Tierra Mia", "url": "https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/main.m3u8" },
+  { "name": "TyC Sports arg", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" },
+  { "name": "Ok fm (canal de musica)", "url": "https://streamlov.alsolnet.com/okfm/live/playlist.m3u8" },
+  { "name": "canal de la ferrere", "url": "https://panel.host-live.com:19360/8118/8118.m3u8" },
+  { "name": "Telecreativa", "url": "https://panel.host-live.com:19360/8012/8012.m3u8" },
+  { "name": "La radio de todos .com", "url": "https://video1.makrodigital.com/laradiodetodos/laradiodetodos/playlist.m3u8" },
+  { "name": "Cadena am 1470", "url": "https://stmvideo1.livecastv.com/am1470/am1470/playlist.m3u8" },
+
+{ "name": "Radio Maria", "url": "https://5f700d5b2c46f.streamlock.net/maria720/maria720/playlist.m3u8" },
+
+
+
+{ "name": "Radio Latina", "url": "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8" },
+
+{ "name": "AMC en Español", "url": "https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8" },
+{ "name": "Argentinisima Satelital" , "url": "https://stream1.sersat.com/hls/argentinisima.m3u8" },
+{ "name": "Bloomberg en Ingles", "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8" },
+{ "name": "11 en ingles", "url": "https://www.bloomberg.com/media-manifest/streams/qt.m3u8" },
+
+{ "name": "CGTN", "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8" },
+{ "name": "DW en esp", "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8" },
+{ "name": "Estrella games en esp", "url": "https://amg00567-estrellamedia-estrellagames-estrellamedia-zy1f4.amagi.tv/playlist/amg00567-estrellamedia-estrellagames-estrellamedia/playlist.m3u8" },
+{ "name": "Estrella noticias", "url": "https://amg00567-estrellamedia-estrellanews-estrellamedia-jrwr5.amagi.tv/playlist/amg00567-estrellamedia-estrellanews-estrellamedia/playlist.m3u8" },
+{ "name": "Estrella media", "url": "https://amg00567-estrellamedia-estrellatv-estrellamedia-5tdh5.amagi.tv/playlist/amg00567-estrellamedia-estrellatv-estrellamedia/playlist.m3u8" },
+{ "name": "Fashion tv", "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8" },
+
+{ "name": "Galicia TV", "url": "https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8" },
+{ "name": "Garage TV argen", "url": "https://stream1.sersat.com/hls/garagetv.m3u8" },
+{ "name": "HispanTV", "url": "https://live.presstv.ir/hls/hispantv.m3u8" },
+{ "name": "Music toP", "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8" },
+
+{ "name": "27", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0027" },
+{ "name": "RTV 24h ESPAÑA", "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8?hdnts=exp%3D1775635040%7Ehmac%3D45a7d46c4d4ce0d7fe94f453680683c3739dd70fafe3f9335c8194d4c0388ee0&idasset=1694255" },
+
+{ "name": "30 ....", "url": "https://d3s7x6kmqcnb6b.cloudfront.net/hls/33ZT2JA/m.m3u8" },
+{ "name": "TUDN Deportes / univision", "url": "https://c4b7b0c6e55c4792918dfa0764b34d20.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-254-UNIVISION247NEWS-VIZIO_PARTNER/mt/vizio/254/hls/master/playlist.m3u8" },
+
+{ "name": "GEN TV", "url": "https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8" },
+{ "name": "34", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0034" },
+{ "name": "Canal 21 Orbe", "url": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8" },
+
+
+{ "name": "38 ....", "url": "https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8" },
+{ "name": "Telesur venezuela", "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8" },
+{ "name": "RT Rusia Today", "url": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8" },
+{ "name": "Canal e", "url": "https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8" },
+{ "name": "Canal 26", "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8" },
+{ "name": "Telemax x", "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8" },
+{ "name": "Bravo TV", "url": "https://jireh-1-hls-video-br-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?dpssid=b2141291981469d5d458254f8&sid=ba5t1l1xb296820544269d5d458254f5&ndvc=1" },
+{ "name": "Net TV", "url": "https://unlimited1-saopaulo.dps.live/nettv/nettv.smil/playlist.m3u8" },
+{ "name": "46 ....", "url": "https://nd106.republicaservers.com/hls/c7812/index.m3u8" },
+
+
+
+{ "name": "TVan24", "url": "https://5f700d5b2c46f.streamlock.net/tvan24/tvan24/playlist.m3u8" },
+{ "name": "Canal 22", "url": "https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8" },
+{ "name": "canal 72", "url": "https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8" },
+{ "name": "53 ....", "url": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8" },
+{ "name": "54 ....", "url": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8" },
+{ "name": "NEO TV", "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8" },
+{ "name": "Quantica tv", "url": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8" },
+{ "name": "ok fm", "url": "https://streamlov.alsolnet.com/okfm/live/playlist.m3u8" },
+
+{ "name": "59", "url": "https://panel.host-live.com:19360/8118/8118.m3u8" },
+{ "name": "Bayres tv", "url": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8" },
+{ "name": "61...", "url": "https://panel.host-live.com:19360/8140/8140.m3u8" },
+{ "name": "Telemix", "url": "https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8" },
+{ "name": "Telecreativa", "url": "https://panel.host-live.com:19360/8012/8012.m3u8" },
+{ "name": "La radio de todos .com", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0064" },
+{ "name": "65", "url": "https://stmvideo1.livecastv.com/am1470/am1470/playlist.m3u8" },
+
+{ "name": "67", "url": "https://nd106.republicaservers.com/hls/skerk4747/index.m3u8" },
+
+{ "name": "Radio ciudad", "url": "https://vivo.solumedia.com:19360/radiociudad/radiociudad.m3u8" },
+{ "name": "Murk tv quilmes", "url": "https://videostream.shockmedia.com.ar:19360/murktv/murktv.m3u8" },
+
+{ "name": "Koatv", "url": "https://panel.host-live.com:19360/koatv/koatv.m3u8" },
+{ "name": "fm class 91.9", "url": "https://tv.streamcasthd.com:3752/live/classfmtvlive.m3u8" },
+{ "name": "Sion tv", "url": "https://tv.streamcasthd.com:3536/live/siontvlive.m3u8" },
+{ "name": "Radio Univeridad UNLAM fm 89.1", "url": "https://5f700d5b2c46f.streamlock.net/unlam/unlam/playlist.m3u8" },
+
+{ "name": "Canal 4", "url": "https://stmvideo6.livecastv.com/canal4/canal4/playlist.m3u8" },
+
+{ "name": "Canal provincial", "url": "https://nd106.republicaservers.com:4433/hls/c7328/index.m3u8" },
+
+{ "name": "Cinco TV", "url": "https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8" },
+{ "name": "Beats Radio", "url": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8" },
+{ "name": "FM tru jui", "url": "https://videostream.shockmedia.com.ar:19360/fmtrujui/fmtrujui.m3u8" },
+{ "name": "Urban TV", "url": "https://tv.streamcasthd.com:3012/live/urbanatvlive.m3u8" },
+{ "name": "Radio studio", "url": "https://vivo.solumedia.com:19360/radioestudio/radioestudio.m3u8" },
+{ "name": "La 90 FM", "url": "https://stream.arcast.com.ar/la90fm/la90fm/playlist.m3u8" },
+{ "name": "88 ....", "url": "https://bvclive1.boldmss.com/BVC_HD/BVC_HD.isml/BVC_HD.m3u8" },
+{ "name": "Canal 7 Trece", "url": "https://vivo.solumedia.com:19360/canalsiete/canalsiete.m3u8" },
+{ "name": "TV2 Balcarce", "url": "https://videohd.live:19360/8064/8064.m3u8" },
+
+{ "name": "Bragado tv", "url": "https://cp.panelchs.com:1936/8206/ngrp:8206_all/playlist.m3u8" },
+{ "name": "Radio la mil 35", "url": "https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8" },
+{ "name": "94 ..", "url": "https://panel.host-live.com:19360/8114/8114.m3u8" },
+{ "name": "95 ...", "url": "https://inliveserver.com:1936/9000/9000/playlist.m3u8" },
+{ "name": "Pringles tv", "url": "https://encoder-1a.reltid.com.ar/live/pringles.m3u8" },
+{ "name": "97 ...", "url": "https://encoder-1a.reltid.com.ar/live/directo.m3u8" },
+
+{ "name": "Tele junin", "url": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8" },
+
+{ "name": "UnLP", "url": "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8" },
+{ "name": "Radio Rocha", "url": "https://stmvideo1.livecastv.com/radiorocha/radiorocha/playlist.m3u8" },
+
+{ "name": "fm victoria", "url": "https://stmv5.livecastv.com/fmvictoria/fmvictoria/playlist.m3u8" },
+{ "name": "dada productora", "url": "https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8" },
+{ "name": "Radio eter mdp", "url": "https://videostream.shockmedia.com.ar:19360/radioetermdp/radioetermdp.m3u8" },
+{ "name": "fm 99.9 mdp", "url": "https://fm999.info/test/index.m3u8" },
+{ "name": "vorterix mardelplata", "url": "https://vivo.solumedia.com:19360/vorterixmdp/vorterixmdp.m3u8" },
+{ "name": "canal 2 mdp", "url": "https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8" },
+{ "name": "canal 79 mdp", "url": "https://streamconex.com:19360/mardelplata/mardelplata.m3u8" },
+
+{ "name": "Villa gesell", "url": "https://camlapinocha.gesell.com.ar/playlist.m3u8" },
+
+{ "name": "La tribuna fm 103.1", "url": "https://stmv5.livecastv.com/latribuna/latribuna/playlist.m3u8" },
+
+{ "name": "118...", "url": "https://nd106.republicaservers.com:4433/hls/c6618/index.m3u8" },
+{ "name": "119", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0119" },
+{ "name": "121", "url": "https://encoder-1a.reltid.com.ar/live/neco.m3u8" },
+{ "name": "120", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0121" },
+{ "name": "122", "url": "https://5f700d5b2c46f.streamlock.net/k2radio/k2radio/playlist.m3u8" },
+{ "name": "cadena 103", "url": "https://streamlov.alsolnet.com/cadena103/live/playlist.m3u8" },
+{ "name": "123...", "url": "https://inliveserver.com:1936/17050/17050/playlist.m3u8" },
+{ "name": "126...", "url": "https://vivo.solumedia.com:19360/canal21/canal21.m3u8" },
+{ "name": "126", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0127" },
+{ "name": "126", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0150" },
+{ "name": "126", "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0190" },
 
 
 {"name":"Evento 00","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-00.playlist.m3u8"},
