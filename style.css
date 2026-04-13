@@ -21,12 +21,15 @@ input {
   margin-top: 5px;
   border: none;
   border-radius: 5px;
+  outline: none;
 }
 
+/* Layout principal */
 main {
   display: flex;
 }
 
+/* Lista de canales */
 #channel-list {
   width: 30%;
   height: 90vh;
@@ -34,16 +37,40 @@ main {
   background: #111;
 }
 
+/* Cada canal */
 .channel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 10px;
   border-bottom: 1px solid #222;
   cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .channel:hover {
   background: #222;
 }
 
+/* Logo del canal */
+.channel img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #000;
+  padding: 2px;
+}
+
+/* Nombre del canal */
+.channel span {
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Contenedor del reproductor */
 #player-container {
   width: 70%;
   display: flex;
@@ -51,8 +78,10 @@ main {
   justify-content: center;
 }
 
+/* Video */
 video {
   width: 95%;
   max-height: 90vh;
   background: black;
+  border-radius: 8px;
 }

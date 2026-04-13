@@ -30,7 +30,12 @@ function renderChannels(data) {
   data.forEach(channel => {
     const div = document.createElement('div');
     div.className = 'channel';
-    div.textContent = channel.name;
+
+    // 🆕 Logo + nombre
+    div.innerHTML = `
+      <img src="${channel.logo || 'https://via.placeholder.com/40?text=TV'}" alt="${channel.name}">
+      <span>${channel.name}</span>
+    `;
 
     // Cuando se hace clic en un canal, se llama a playChannel
     div.onclick = () => playChannel(channel);
@@ -72,8 +77,8 @@ function playChannel(channel) {
   // Verificar si Hls.js está soportado
   if (Hls.isSupported()) {
     hls = new Hls();
-    hls.loadSource(channel.url);  // Cargar la URL m3u8
-    hls.attachMedia(video); // Adjuntar al reproductor de video
+    hls.loadSource(channel.url);
+    hls.attachMedia(video);
 
     hls.on(Hls.Events.MANIFEST_PARSED, function () {
       console.log('Manifest loaded, starting playback...');
@@ -86,7 +91,7 @@ function playChannel(channel) {
     });
 
   } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Si el navegador soporta HLS nativamente (Safari)
+    // Safari (soporte nativo)
     video.src = channel.url;
   } else {
     alert("Este navegador no soporta el streaming HLS.");
