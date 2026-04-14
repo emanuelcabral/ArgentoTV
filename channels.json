@@ -1,5 +1,8 @@
 [
   {
+    "epg_url": "https://iptv-epg.org/files/epg-ar.xml"
+  },
+  {
     "name": "canal 4 jujuy",
     "url": "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8",
     "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
@@ -55,59 +58,69 @@
     "logo": "https://grupomaxima.com.ar/wp-content/uploads/2025/03/EN-VIVO-radio-ideasdelnorte-gaston-lopez-tilcara-jujuy-grupo-maxima-fm-300x171.png"
   },
 
-  {
-    "name": "TV Publica",
-    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-11.playlist.m3u8",
-    "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png"
-  },
-  {
-    "name": "Tv Publica (YouTube)",
-    "url": "https://youtu.be/zpxyq7MTbMU",
-    "type": "youtube",
-    "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png"
-  },
-  {
-    "name": "Canal 9 - El nueve",
-    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"
-  },
-  {
-    "name": "Canal 9 (YouTube)",
-    "url": "https://www.youtube.com/watch?v=63FF72LFxAw",
-    "type": "youtube",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"
-  },
-  {
-    "name": "Telefe 1080p",
-    "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png"
-  },
-  {
-    "name": "Telefe Santa fe",
-    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-10.playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telefe_Santa_Fe.png"
-  },
-  {
-    "name": "El Trece",
-    "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png"
-  },
-  {
-    "name": "America TV",
-    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-17.playlist.m3u8",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"
-  },
-{ 
-  "name": "TN (YouTube)", 
-  "url": "https://youtu.be/cb12KmMMDJA", 
-  "type": "youtube", 
-  "logo": "https://images.seeklogo.com/logo-png/46/2/todo-noticias-logo-png_seeklogo-462511.png" 
+{
+  "name": "TV Publica",
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-11.playlist.m3u8",
+  "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png",
+  "epg_id": "TelevisionPublica.ar"
 },
-{ 
-  "name": "A24 (YouTube)", 
-  "url": "https://youtu.be/ArKbAx1K-2U", 
-  "type": "youtube", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png" 
+{
+  "name": "Tv Publica (YouTube)",
+  "url": "https://youtu.be/zpxyq7MTbMU",
+  "type": "youtube",
+  "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png",
+  "epg_id": "TelevisionPublica.ar"
+},
+{
+  "name": "Canal 9 - El nueve",
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png",
+  "epg_id": "ELNueve.ar"
+},
+{
+  "name": "Canal 9 (YouTube)",
+  "url": "https://www.youtube.com/watch?v=63FF72LFxAw",
+  "type": "youtube",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png",
+  "epg_id": "ELNueve.ar"
+},
+{
+  "name": "Telefe 1080p",
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png",
+  "epg_id": "Telefe.ar"
+},
+{
+  "name": "Telefe Santa fe",
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-10.playlist.m3u8",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telefe_Santa_Fe.png",
+  "epg_id": "Telefe.ar"
+},
+{
+  "name": "El Trece",
+  "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png",
+  "epg_id": "ELTrece.ar"
+},
+{
+  "name": "America TV",
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-17.playlist.m3u8",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png",
+  "epg_id": "AmericaTV.ar"
+},
+{
+  "name": "TN (YouTube)",
+  "url": "https://youtu.be/cb12KmMMDJA",
+  "type": "youtube",
+  "logo": "https://images.seeklogo.com/logo-png/46/2/todo-noticias-logo-png_seeklogo-462511.png",
+  "epg_id": "TN.ar"
+},
+{
+  "name": "A24 (YouTube)",
+  "url": "https://youtu.be/ArKbAx1K-2U",
+  "type": "youtube",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
+  "epg_id": "A24.ar"
 },
 { 
   "name": "Telesur", 
