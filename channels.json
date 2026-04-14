@@ -1,85 +1,384 @@
 [
-{ "name": "canal 4 jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8" },
-{ "name": "canal 13 jujuy", "url": "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8" },
-{ "name": "cam alto comedero jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live1/playlist.m3u8" },
-{ "name": "cam san salvador de jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live3/playlist.m3u8" },
-{ "name": "19 abril y lavalle jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live4/playlist.m3u8" },
-{ "name": "casa de gobierno jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live5/playlist.m3u8" },
-{ "name": "peatonal belgrano", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live6/playlist.m3u8" },
-{ "name": "Estadio zapla palpala jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live7/playlist.m3u8" },
-{ "name": "cam bajo la viña jujuy", "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live8/playlist.m3u8" },
-{ "name": "canal 7 jujuy", "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8" },
-{ "name": "grupo maxima sintonia jujuy", "url": "https://videostream.shockmedia.com.ar:19360/grupomaxima/grupomaxima.m3u8" },
-{ "name": "Canal 4 Jujuy", "url": "http://streaming.wirenetserver.com.ar:1935/canal4/live_1/playlist.m3u8" },
-{ "name": "Canal 7 Jujuy", "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8" },
+  {
+    "name": "canal 4 jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "canal 13 jujuy",
+    "url": "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqHXWjbMhad5z4dezNF401c-mF1aFH78hDfg&s"
+  },
+  {
+    "name": "cam alto comedero jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live1/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "cam san salvador de jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live3/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "19 abril y lavalle jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live4/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "casa de gobierno jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live5/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "peatonal belgrano",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live6/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "Estadio zapla palpala jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live7/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "cam bajo la viña jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live8/playlist.m3u8",
+    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+  },
+  {
+    "name": "canal 7 jujuy",
+    "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l_ZC_dWMMdsSFdYvD6f0u4QKOWi6ca8oLV6y1IjMZiVA=s160-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "name": "grupo maxima sintonia jujuy",
+    "url": "https://videostream.shockmedia.com.ar:19360/grupomaxima/grupomaxima.m3u8",
+    "logo": "https://grupomaxima.com.ar/wp-content/uploads/2025/03/EN-VIVO-radio-ideasdelnorte-gaston-lopez-tilcara-jujuy-grupo-maxima-fm-300x171.png"
+  },
 
-{"name":"TV Publica","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-11.playlist.m3u8"},
-{ "name": "Tv Publica (YouTube)", "url": "https://youtu.be/zpxyq7MTbMU", "type": "youtube" },
-{"name":"Canal 9 - El nueve","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8"},
-{ "name": "Canal 9 (YouTube)", "url": "https://www.youtube.com/watch?v=63FF72LFxAw", "type": "youtube" },
-{ "name": "Telefe 1080p",   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8"},
-{"name":"Telefe Santa fe","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-10.playlist.m3u8"},
-{ "name": "El Trece", "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8" },
-{"name":"America TV","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-17.playlist.m3u8"},
+  {
+    "name": "TV Publica",
+    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-11.playlist.m3u8",
+    "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png"
+  },
+  {
+    "name": "Tv Publica (YouTube)",
+    "url": "https://youtu.be/zpxyq7MTbMU",
+    "type": "youtube",
+    "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png"
+  },
+  {
+    "name": "Canal 9 - El nueve",
+    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"
+  },
+  {
+    "name": "Canal 9 (YouTube)",
+    "url": "https://www.youtube.com/watch?v=63FF72LFxAw",
+    "type": "youtube",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"
+  },
+  {
+    "name": "Telefe 1080p",
+    "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png"
+  },
+  {
+    "name": "Telefe Santa fe",
+    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-10.playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Telefe_Santa_Fe.png"
+  },
+  {
+    "name": "El Trece",
+    "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png"
+  },
+  {
+    "name": "America TV",
+    "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-17.playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"
+  },
+{ 
+  "name": "TN (YouTube)", 
+  "url": "https://youtu.be/cb12KmMMDJA", 
+  "type": "youtube", 
+  "logo": "https://images.seeklogo.com/logo-png/46/2/todo-noticias-logo-png_seeklogo-462511.png" 
+},
+{ 
+  "name": "A24 (YouTube)", 
+  "url": "https://youtu.be/ArKbAx1K-2U", 
+  "type": "youtube", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png" 
+},
+{ 
+  "name": "Telesur", 
+  "url": "https://youtu.be/uGK8rHot0Pc", 
+  "type": "youtube", 
+  "logo": "https://cubaenresumen.org/wp-content/uploads/2024/05/unnamed.png" 
+},
+{ 
+  "name": "France 24", 
+  "url": "https://youtu.be/Y-IlMeCCtIg", 
+  "type": "youtube", 
+  "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
+},
+{ 
+  "name": "RT", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-98.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" 
+},
+{ 
+  "name": "DW en Español", 
+  "info": "Internacional Alemania HD", 
+  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" 
+},
+{ 
+  "name": "DW En Esp", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-13.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" 
+},
+{ 
+  "name": "Ar|12", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-21.playlist.m3u8", 
+  "logo": "https://yt3.googleusercontent.com/FXY0jNjQWr7w5JKKzEZ1VqvRYoDqZNAwEQ77n4AK7IdQQhyRVjd69UUVFJ7xify6BUKdUuCcEQ=s900-c-k-c0x00ffffff-no-rj" 
+},
+{ 
+  "name": "Unife", 
+  "url": "https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_unife_vertical.png" 
+},
+{ 
+  "name": "Cronica TV (1280p)", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMws_dS_RgTonY7k8S0PD5nQN7ZB_rbRjwiA&s" 
+},
+{ 
+  "name": "C5N (1080p)", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8", 
+  "logo": "https://logowik.com/content/uploads/images/c5n-20179833.logowik.com.webp" 
+},
+{ 
+  "name": "La Nacion + (720p)", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d236b25a3ffea95003/lntv.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png" 
+},
+{ 
+  "name": "Canal 26", 
+  "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/3840px-Canal_26_logo_%282022%29.svg.png" 
+},
+{ 
+  "name": "Telemax", 
+  "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTZVS00fRQhhbeWgwDDiRDvZ-1QTyR06W8w&s" 
+},
+{ 
+  "name": "Net TV", 
+  "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" 
+},
 
-{ "name":"TN (YouTube)", "url": "https://youtu.be/cb12KmMMDJA", "type": "youtube" },
-{ "name":"A24 (YouTube)", "url": "https://youtu.be/ArKbAx1K-2U", "type": "youtube" },
-{"name":"Telesur","url":"https://youtu.be/uGK8rHot0Pc" , "type":"youtube"},
-{"name":"France 24","url":"https://youtu.be/Y-IlMeCCtIg" , "type":"youtube"},
-{"name":"RT","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-98.playlist.m3u8"},
-{"name":"DW en Español","info":"Internacional Alemania HD","url":"https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8"},
-{"name":"DW En Esp","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-13.playlist.m3u8"},
-{"name":"Ar|12","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-21.playlist.m3u8"},
-{ "name":"Unife", "url": "https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8" },
-{"name":"Cronica TV (1280p)","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8"},
-{"name":"C5N (1080p)","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8"},
-{"name":"La Nacion + (720p)","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv.playlist.m3u8"},
-{ "name":"Canal 26", "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8" },
-{ "name":"Telemax", "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8" },
-{ "name":"Net TV", "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8" },
+{ 
+  "name": "Bravo TV", 
+  "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8", 
+  "logo": "https://www.grupocronica.com.ar/resources/img/tv/cronica_Bravo_TV.jpg" 
+},
+{ 
+  "name": "Bravo Tv", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-80.playlist.m3u8", 
+  "logo": "https://www.grupocronica.com.ar/resources/img/tv/cronica_Bravo_TV.jpg" 
+},
+{ 
+  "name": "TV Universidad", 
+  "url": "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8", 
+  "logo": "https://tv.unlp.edu.ar/wp-content/uploads/2026/02/cropped-Marca-UNLP-TV-sin-fondo.png" 
+},
+{ 
+  "name": "Canal E", 
+  "url": "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6y5DS-7tR80x8PXFo1f0rVxL2libLXL9nJA&s" 
+},
+{ 
+  "name": "Canal á", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-15.playlist.m3u8", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/Canal_%28%C3%A1%29_2019.png/revision/latest?cb=20210524235426&path-prefix=es" 
+},
+{ 
+  "name": "Metro Tv", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-53.playlist.m3u8", 
+  "logo": "https://television.com.ar/wp-content/uploads/2024/05/Metro-600x428-350x240-1.jpg" 
+},
+{ 
+  "name": "Metro TV", 
+  "url": "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8", 
+  "logo": "https://www.lyngsat.com/logo/tv/cc/canal-12-metro-tv-ar.png" 
+},
+{ 
+  "name": "Argentinisima", 
+  "url": "https://stream1.sersat.com/hls/argentinisima.m3u8", 
+  "logo": "https://lh5.googleusercontent.com/proxy/nI3sHDw6ynUJ9fGjSsCVTtmEas_jC4YqorHR-SmtReLMMI-iziYHXCeiEyLS9GqKlMnOuCk9CjXxV_qZaKK1lk1ZttqhFgMSL_8f" 
+},
+{ 
+  "name": "Canal Rural (1080p)", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/rural.playlist.m3u8", 
+  "logo": "https://yt3.googleusercontent.com/3B05WqW7DRkr0OVmIvS9KfMSN9yGZAM5L0N6_iIBNOoCnbv8Vk9MNcesPM1t9CVotFjtAwLycA=s900-c-k-c0x00ffffff-no-rj" 
+},
+{ 
+  "name": "Encuentro TV", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-19.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Canal_encuentro_2020.png" 
+},
+{ 
+  "name": "Encuentro (1080p)", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Canal_encuentro_2020.png" 
+},
+{ 
+  "name": "fashion TV", 
+  "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8", 
+  "logo": "https://play-lh.googleusercontent.com/SO05Jsh-ONrtRXa_5eOa15AzjrFCKNNPKlBMK1Prv_-meYXAV5F5eK15iJTGbY2ULBM=w600-h300-pc0xffffff-pd" 
+},
+{ 
+  "name": "E!", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-14.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/E%21_Logo.svg" 
+},
+{ 
+  "name": "History", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-40.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg" 
+},
+{ 
+  "name": "H2 History", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-41.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png" 
+},
+{ 
+  "name": "Discovey ID", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-42.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" 
+},
+{ 
+  "name": "H&H Home and Health", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-43.playlist.m3u8", 
+  "logo": "https://logodownload.org/wp-content/uploads/2020/06/discovery-home-and-health-logo-0.png" 
+},
+{ 
+  "name": "Discovery channel", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-44.playlist.m3u8", 
+  "logo": "https://cdn.worldvectorlogo.com/logos/discovery-channel-4.svg" 
+},
+{ 
+  "name": "Discovery turbo", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-99.playlist.m3u8", 
+  "logo": "https://e7.pngegg.com/pngimages/165/148/png-clipart-discovery-turbo-television-channel-discovery-channel-logo-others-miscellaneous-television.png" 
+},
+{ 
+  "name": "Animal Planet", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-45.playlist.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/34/1/animal-planet-new-logo-png_seeklogo-346957.png" 
+},
+{ 
+  "name": "National Geographic", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-46.playlist.m3u8", 
+  "logo": "https://1000marcas.net/wp-content/uploads/2020/03/National-Geographic-logo.jpg" 
+},
 
-{ "name":"Bravo TV", "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8" },
-{"name":"Bravo Tv","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-80.playlist.m3u8"},
-{ "name":"TV Universidad", "url": "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8" },
-{ "name":"Canal E", "url": "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8" },
-{"name":"Canal á","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-15.playlist.m3u8"},
-{"name":"Metro Tv","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-53.playlist.m3u8"},
-{ "name":"Metro TV", "url": "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8" },
-{ "name":"Argentinisima", "url": "https://stream1.sersat.com/hls/argentinisima.m3u8" },
-{"name":"Canal Rural (1080p)","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/rural.playlist.m3u8"},
-  
-{"name":"Encuentro TV","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-19.playlist.m3u8"},
-{"name":"Encuentro (1080p)","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19.playlist.m3u8"},
-{ "name":"fashion TV", "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8" },
-{"name":"E!","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-14.playlist.m3u8"},
-{"name":"History","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-40.playlist.m3u8"},
-{"name":"H2 History","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-41.playlist.m3u8"},
-{"name":"Discovey ID","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-42.playlist.m3u8"},
-{"name":"H&H Home and Health","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-43.playlist.m3u8"},
-{"name":"Discovery channel","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-44.playlist.m3u8"},
-{"name":"Discovery turbo","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-99.playlist.m3u8"},
-{"name":"Animal Planet","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-45.playlist.m3u8"},
-{"name":"National Geographic","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-46.playlist.m3u8"},
+{ 
+  "name": "RAI Italia", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-22.playlist.m3u8", 
+  "logo": "https://e7.pngegg.com/pngimages/865/157/png-clipart-rai-movie-film-rai-1-television-rai-television-blue.png" 
+},
+{ 
+  "name": "TVE España", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-23.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_TVE-Internacional.svg" 
+},
 
-{"name":"RAI Italia","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-22.playlist.m3u8"},
-{"name":"TVE España","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-23.playlist.m3u8"},
-  
-{"name":"DeporTV","url":"http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/deportv_720.m3u8"},
-{"name":"DirecTV Sports","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-04.playlist.m3u8"},
-{ "name":"TyC Sports arg", "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8" },
-{"name":"TyC Sports (1080p)","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-90.playlist.m3u8"},
-{ "name":"TyC Sports", "url": "https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8" },
-{ "name":"fox sports",   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91.playlist.m3u8"},
-{ "name":"fox sports 2",   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-93.playlist.m3u8"},
-{ "name":"fox sports 3",   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-92.playlist.m3u8"},
-  
-{"name":"Espn Premium","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-02.playlist.m3u8"},
-{"name":"Espn","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-94.playlist.m3u8"},
-{"name":"Espn 2","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-97.playlist.m3u8"},
-{"name":"Espn 3","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-96.playlist.m3u8"},
-{"name":"Espn 4","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-95.playlist.m3u8"},
-{"name":"Espn 5","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-104.playlist.m3u8"},
-{"name":"Espn 7","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-106.playlist.m3u8"},
+{ 
+  "name": "DeporTV", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/deportv_720.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/40/1/deportv-logo-png_seeklogo-404807.png" 
+},
+{ 
+  "name": "DirecTV Sports", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-04.playlist.m3u8", 
+  "logo": "https://pbs.twimg.com/media/FhSdYd1WAAE8b5R.jpg" 
+},
+
+{ 
+  "name": "TNT Sports Premium", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-04.playlist.m3u8", 
+  "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
+},
+
+{ 
+  "name": "TyC Sports arg", 
+  "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8", 
+  "logo": "https://play-lh.googleusercontent.com/lMZ8IE19zdpnlDuZSPtapCYDBDwOGXlovEMsZHXClDzl0m_MHuMM1Hsdo-oohnFW3Q" 
+},
+{ 
+  "name": "TyC Sports (1080p)", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-90.playlist.m3u8", 
+  "logo": "https://play-lh.googleusercontent.com/lMZ8IE19zdpnlDuZSPtapCYDBDwOGXlovEMsZHXClDzl0m_MHuMM1Hsdo-oohnFW3Q" 
+},
+{ 
+  "name": "TyC Sports", 
+  "url": "https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8", 
+  "logo": "https://play-lh.googleusercontent.com/lMZ8IE19zdpnlDuZSPtapCYDBDwOGXlovEMsZHXClDzl0m_MHuMM1Hsdo-oohnFW3Q" 
+},
+
+{ 
+  "name": "fox sports", 
+  "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91.playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLU9KpawLo7hEoHKFrGgiBqxw4xidVm9ztQ&s" 
+},
+{ 
+  "name": "fox sports 2", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-93.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Logo_Fox_Sports_2_Argentina_2023.png" 
+},
+{ 
+  "name": "fox sports 3", 
+  "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-92.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Logo_Fox_Sports_3_Argentina_2023.png" 
+},
+
+{ 
+  "name": "Espn Premium", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-02.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/db/ESPN_Premium_logo.png" 
+},
+{ 
+  "name": "Espn", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-94.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/60/ESPN_logos.png" 
+},
+{ 
+  "name": "Espn 2", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-97.playlist.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/4/1/espn-2-logo-png_seeklogo-49202.png" 
+},
+{ 
+  "name": "Espn 3", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-96.playlist.m3u8", 
+  "logo": "https://espnpressroom.com/us/files/2011/10/espn3-642x405.jpg" 
+},
+{ 
+  "name": "Espn 4", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-95.playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfx6VvH5StHtDrMuZ3wocAJdT_ZTYsVLMAw&s" 
+},
+{ 
+  "name": "Espn 5", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-104.playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2SfWvS72hAWhFGWsfZ7CslVNhrOj9MIppw&s" 
+},
+{ 
+  "name": "Espn 7", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-106.playlist.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/52/1/espn-7-logo-png_seeklogo-522718.png" 
+},
 
 { "name":"Garage TV", "url": "https://stream1.sersat.com/hls/garagetv.m3u8" },
 {"name":"Garage TV arg","url":"http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-24.playlist.m3u8"},
