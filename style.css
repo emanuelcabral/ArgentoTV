@@ -1,6 +1,11 @@
 /* GENERAL */
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: Arial, sans-serif;
   background: #0f0f0f;
   color: white;
@@ -9,6 +14,7 @@ body {
 header {
   padding: 10px;
   background: #1c1c1c;
+  height: 100px;
 }
 
 header h1 {
@@ -28,13 +34,13 @@ input {
 /* LAYOUT */
 main {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 200px);
 }
 
 /* LISTA DE CANALES */
 #channel-list {
   width: 30%;
-  height: 90vh;
+  height: calc(100vh - 100px);
   overflow-y: auto;
   background: #111;
 }
@@ -63,33 +69,6 @@ main {
   background: #000;
   padding: 2px;
   flex-shrink: 0;
-}
-
-/* BLOQUE TEXTO (NOMBRE + EPG) */
-.channel-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 4px;
-  min-width: 0;
-}
-
-/* NOMBRE */
-.channel-name {
-  font-size: 15px;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* EPG */
-.channel-epg {
-  font-size: 13px;
-  color: #aaa;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* PLAYER CON VIDEO */
@@ -132,6 +111,7 @@ video {
   display: flex;
   gap: 12px;
   align-items: center;
+  width: 100%;
 }
 
 #overlay-logo {
@@ -145,6 +125,7 @@ video {
 .overlay-text {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 #overlay-name {
@@ -158,23 +139,13 @@ video {
 }
 
 /* ------------------------- */
-/* CONTROLES PERSONALIZADOS */
+/* CONTROLES PERSONALIZADOS EN EL OVERLAY */
 /* ------------------------- */
 #custom-controls {
-  position: absolute;
-  bottom: 60px; /* Justo encima del overlay */
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-#custom-controls.show {
-  opacity: 1;
+  gap: 15px;
+  margin-left: auto;  /* Mueve los controles a la derecha */
 }
 
 button, input[type="range"] {
@@ -197,12 +168,6 @@ button:focus, input:focus {
 }
 
 /* ------------------------- */
-/* ESTILOS PARA EL VIDEO Y CANAL SELECCIONADO */
-.channel.focused {
-  border: 2px solid teal;
-}
-
-/* ------------------------- */
 /* CONTROL DE VOLUMEN */
 input[type="range"] {
   width: 100px;
@@ -210,7 +175,18 @@ input[type="range"] {
 
 /* ------------------------- */
 /* Cuando el canal está enfocado, se pone un borde */
-.channel:focus {
+.channel.focused {
   outline: none;
   border: 2px solid teal;
+}
+
+/* ------------------------- */
+/* CONTROL DE VOLUMEN Y FULLSCREEN */
+#fullscreen-btn,
+#play-pause-btn {
+  font-size: 1.2em;
+}
+
+#volume-slider {
+  width: 100px;
 }

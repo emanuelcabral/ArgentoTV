@@ -143,11 +143,6 @@ function showOverlay(channel) {
 function renderChannels(data) {
   list.innerHTML = '';
 
-  if (!data || data.length === 0) {
-    list.innerHTML = "<p>No hay canales</p>";
-    return;
-  }
-
   data.forEach(channel => {
 
     const div = document.createElement('div');
@@ -195,6 +190,19 @@ function playChannel(channel) {
     video.autoplay = true;
     video.controls = false;  // Desactivamos los controles predeterminados
     player.prepend(video);
+  }
+
+  // YouTube
+  if (channel.type === "youtube" || channel.url.includes("youtube")) {
+    const id = channel.url.match(/(?:youtu\.be\/|v=)([^&]+)/)?.[1];
+    if (!id) return;
+
+    player.innerHTML = `
+      <iframe width="100%" height="100%"
+      src="https://www.youtube.com/embed/${id}?autoplay=1"
+      allowfullscreen></iframe>
+    `;
+    return;
   }
 
   if (window.Hls && Hls.isSupported()) {
@@ -263,20 +271,25 @@ const playPauseBtn = document.getElementById('play-pause-btn');
 const volumeSlider = document.getElementById('volume-slider');
 const fullscreenBtn = document.getElementById('fullscreen-btn');
 
+// PLAY/PAUSE BUTTON
 playPauseBtn.addEventListener('click', () => {
+  if (!video) return;
+
   if (video.paused) {
     video.play();
-    playPauseBtn.textContent = 'Pause';
+    playPauseBtn.textContent = '⏸'; // Pause icon
   } else {
     video.pause();
-    playPauseBtn.textContent = 'Play';
+    playPauseBtn.textContent = '▶'; // Play icon
   }
 });
 
+// VOLUME CONTROL
 volumeSlider.addEventListener('input', () => {
-  video.volume = volumeSlider.value;
+  if (video) video.volume = volumeSlider.value;
 });
 
+// FULLSCREEN BUTTON
 fullscreenBtn.addEventListener('click', () => {
   if (!document.fullscreenElement) {
     player.requestFullscreen();
