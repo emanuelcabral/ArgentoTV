@@ -1,137 +1,171 @@
-// =======================
-// DOM
-// =======================
 const list = document.getElementById('channel-list');
 const search = document.getElementById('search');
 const player = document.getElementById('player-container');
 
+const overlay = document.getElementById("overlay");
+const overlayName = document.getElementById("overlay-name");
+const overlayLogo = document.getElementById("overlay-logo");
+const overlayEpg = document.getElementById("overlay-epg");
+
 let channels = [];
 let hls;
 let epgData = {};
+let overlayTimeout;
+let currentChannelIndex = 0;
 
-// =======================
-// EPG URL
-// =======================
+// 🔥 EPG URL
 const EPG_URL = "https://iptv-epg.org/files/epg-ar.xml";
 
-// =======================
-// HELPERS EPG TIME
-// =======================
-function parseEPGTime(str) {
+// -----------------------------
+// 🔥 PARSE TIME
+// -----------------------------
+function parseTime(str) {
   if (!str) return null;
 
-  const clean = str.split(" ")[0]; // quita +0000
-  const y = clean.slice(0, 4);
-  const m = clean.slice(4, 6);
-  const d = clean.slice(6, 8);
-  const h = clean.slice(8, 10);
-  const min = clean.slice(10, 12);
+  const clean = str.split(" ")[0];
 
-  return new Date(`${y}-${m}-${d}T${h}:${min}:00Z`);
+  return new Date(
+    clean.slice(0, 4) + "-" +
+    clean.slice(4, 6) + "-" +
+    clean.slice(6, 8) + "T" +
+    clean.slice(8, 10) + ":" +
+    clean.slice(10, 12) + ":" +
+    clean.slice(12, 14) + "Z"
+  );
 }
 
-function getCurrentProgram(list) {
-  const now = new Date();
+// -----------------------------
+// 🔥 CARGAR EPG
+// -----------------------------
+async function loadEPG() {
+  try {
+    const res = await fetch(EPG_URL);
+    const xmlText = await res.text();
 
-  return list.find(p => {
-    const start = parseEPGTime(p.start);
-    const stop = parseEPGTime(p.stop);
-
-    if (!start || !stop) return false;
-
-    return now >= start && now <= stop;
-  });
-}
-
-// =======================
-// CARGAR EPG
-// =======================
-fetch(EPG_URL)
-  .then(res => res.text())
-  .then(xmlText => {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, "text/xml");
-
+    const xml = new DOMParser().parseFromString(xmlText, "text/xml");
     const programmes = xml.getElementsByTagName("programme");
 
     for (let p of programmes) {
       const channel = p.getAttribute("channel");
       const title = p.getElementsByTagName("title")[0]?.textContent;
-      const start = p.getAttribute("start");
-      const stop = p.getAttribute("stop");
+
+      const start = parseTime(p.getAttribute("start"));
+      const stop = parseTime(p.getAttribute("stop"));
 
       if (!channel) continue;
 
       if (!epgData[channel]) epgData[channel] = [];
 
-      epgData[channel].push({
-        title,
-        start,
-        stop
-      });
+      epgData[channel].push({ title, start, stop });
     }
 
-    // ordenar por tiempo
-    for (let key in epgData) {
-      epgData[key].sort((a, b) =>
-        (a.start || "").localeCompare(b.start || "")
-      );
-    }
+  } catch (e) {
+    console.warn("EPG error:", e);
+  }
+}
 
-    console.log("EPG cargado OK:", epgData);
+// -----------------------------
+// 🔥 PROGRAMA ACTUAL
+// -----------------------------
+function getCurrentProgram(list) {
+  if (!list) return null;
 
-    // 🔥 re-render si ya hay canales
-    if (channels.length) renderChannels(channels);
-  })
-  .catch(err => {
-    console.error("Error cargando EPG:", err);
-  });
+  const now = new Date();
 
-// =======================
-// CARGAR CANALES
-// =======================
-fetch('./channels.json')
-  .then(res => res.json())
-  .then(data => {
-    channels = data;
+  return list.find(p =>
+    p.start && p.stop && now >= p.start && now <= p.stop
+  );
+}
+
+// -----------------------------
+// 🔥 CARGAR CANALES
+// -----------------------------
+async function loadChannels() {
+  try {
+    const res = await fetch('./channels.json');
+    channels = await res.json();
+
     renderChannels(channels);
-  })
-  .catch(err => {
-    console.error('Error al cargar channels.json:', err);
-  });
 
-// =======================
-// RENDER
-// =======================
+  } catch (err) {
+    console.error("Error channels:", err);
+    list.innerHTML = "<p>Error cargando canales</p>";
+  }
+}
+
+// -----------------------------
+// 🔥 OBTENER EPG
+// -----------------------------
+function getEPG(channel) {
+
+  if (channel.epg_id && epgData[channel.epg_id]) {
+    return epgData[channel.epg_id];
+  }
+
+  const keys = Object.keys(epgData);
+
+  const foundKey = keys.find(k =>
+    channel.name?.toLowerCase().includes(k.toLowerCase())
+  );
+
+  if (foundKey) {
+    return epgData[foundKey];
+  }
+
+  return null;
+}
+
+// -----------------------------
+// 🔥 OVERLAY
+// -----------------------------
+function showOverlay(channel) {
+
+  if (!overlay) return;
+
+  const epgList = getEPG(channel);
+  const current = getCurrentProgram(epgList);
+
+  overlayName.textContent = channel.name;
+  overlayLogo.src = channel.logo || '';
+  overlayEpg.textContent = current?.title || "Sin programación";
+
+  overlay.classList.add("show");
+
+  clearTimeout(overlayTimeout);
+  overlayTimeout = setTimeout(() => {
+    overlay.classList.remove("show");
+  }, 3000);
+}
+
+// -----------------------------
+// 🔥 RENDER
+// -----------------------------
 function renderChannels(data) {
   list.innerHTML = '';
 
-  if (!data.length) {
-    list.innerHTML = '<p>No hay canales disponibles.</p>';
+  if (!data || data.length === 0) {
+    list.innerHTML = "<p>No hay canales</p>";
     return;
   }
 
   data.forEach(channel => {
+
     const div = document.createElement('div');
     div.className = 'channel';
 
-    let epgText = "Sin programación";
+    const epgList = getEPG(channel);
+    const current = getCurrentProgram(epgList);
 
-    const epgId = (channel.epg_id || "").trim();
-
-    if (epgId && epgData[epgId]) {
-      const current = getCurrentProgram(epgData[epgId]);
-
-      epgText = current?.title || "Sin datos";
-    }
+    const epgText =
+      current?.title ||
+      epgList?.[0]?.title ||
+      "Sin programación";
 
     div.innerHTML = `
-      <img src="${channel.logo || 'https://via.placeholder.com/40?text=TV'}">
+      <img src="${channel.logo || 'https://via.placeholder.com/40'}">
       <div>
         <span>${channel.name}</span>
-        <small style="display:block; color:gray;">
-          ${epgText}
-        </small>
+        <small style="display:block;color:gray;">${epgText}</small>
       </div>
     `;
 
@@ -141,64 +175,135 @@ function renderChannels(data) {
   });
 }
 
-// =======================
-// PLAYER
-// =======================
+// -----------------------------
+// 🔥 PLAYER (con controles personalizados)
+// -----------------------------
 function playChannel(channel) {
+
+  currentChannelIndex = channels.indexOf(channel);
+
   if (hls) {
     hls.destroy();
     hls = null;
   }
 
-  // YouTube
-  if (channel.type === "youtube" || channel.url.includes("youtube")) {
-    const videoId = getYouTubeID(channel.url);
-    if (!videoId) return;
+  let video = document.getElementById('video');
 
-    player.innerHTML = `
-      <iframe width="100%" height="100%"
-      src="https://www.youtube.com/embed/${videoId}?autoplay=1"
-      frameborder="0"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-      </iframe>
-    `;
-    return;
+  if (!video) {
+    video = document.createElement("video");
+    video.id = "video";
+    video.autoplay = true;
+    video.controls = false;  // Desactivamos los controles predeterminados
+    player.prepend(video);
   }
 
-  // HLS
-  player.innerHTML = '<video id="video" controls autoplay></video>';
-  const video = document.getElementById('video');
-
-  if (Hls.isSupported()) {
+  if (window.Hls && Hls.isSupported()) {
     hls = new Hls();
     hls.loadSource(channel.url);
     hls.attachMedia(video);
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = channel.url;
   } else {
-    alert("No soporta HLS");
+    video.src = channel.url;
   }
+
+  showOverlay(channel);
+
+  // Mostrar controles personalizados
+  document.getElementById('custom-controls').classList.remove('hidden');
 }
 
-// =======================
-// YOUTUBE ID
-// =======================
-function getYouTubeID(url) {
-  const regExp = /(?:youtube\.com\/.*v=|youtu\.be\/)([^&\n?#]+)/;
-  const match = url.match(regExp);
-  return match ? match[1] : null;
-}
+// -----------------------------
+// 🔥 TECLADO
+// -----------------------------
+document.addEventListener("keydown", (e) => {
 
-// =======================
-// BUSCADOR
-// =======================
-search.addEventListener('input', () => {
-  const value = search.value.toLowerCase();
+  if (!channels.length) return;
 
-  const filtered = channels.filter(c =>
-    c.name.toLowerCase().includes(value)
-  );
+  if (e.key === "ArrowUp") {
+    currentChannelIndex--;
+    if (currentChannelIndex < 0) {
+      currentChannelIndex = channels.length - 1;
+    }
+    showOverlay(channels[currentChannelIndex]);
+  }
 
-  renderChannels(filtered);
+  if (e.key === "ArrowDown") {
+    currentChannelIndex++;
+    if (currentChannelIndex >= channels.length) {
+      currentChannelIndex = 0;
+    }
+    showOverlay(channels[currentChannelIndex]);
+  }
+
+  if (e.key === "Enter") {
+    playChannel(channels[currentChannelIndex]);
+  }
 });
+
+// -----------------------------
+// 🔥 FULLSCREEN
+// -----------------------------
+player.addEventListener("dblclick", () => {
+  if (!document.fullscreenElement) {
+    player.requestFullscreen();
+  }
+});
+
+document.addEventListener("fullscreenchange", () => {
+  if (document.fullscreenElement) {
+    overlay.classList.add("show");  // Ensura que el overlay siempre se muestre cuando estás en pantalla completa
+  } else {
+    overlay.classList.remove("show");  // El overlay se oculta cuando sales de pantalla completa
+  }
+});
+
+// -----------------------------
+// 🔥 CONTROLES PERSONALIZADOS
+// -----------------------------
+const playPauseBtn = document.getElementById('play-pause-btn');
+const volumeSlider = document.getElementById('volume-slider');
+const fullscreenBtn = document.getElementById('fullscreen-btn');
+
+playPauseBtn.addEventListener('click', () => {
+  if (video.paused) {
+    video.play();
+    playPauseBtn.textContent = 'Pause';
+  } else {
+    video.pause();
+    playPauseBtn.textContent = 'Play';
+  }
+});
+
+volumeSlider.addEventListener('input', () => {
+  video.volume = volumeSlider.value;
+});
+
+fullscreenBtn.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    player.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+});
+
+// -----------------------------
+// 🔥 SEARCH
+// -----------------------------
+search?.addEventListener('input', () => {
+  const v = search.value.toLowerCase();
+
+  renderChannels(
+    channels.filter(c =>
+      c.name?.toLowerCase().includes(v)
+    )
+  );
+});
+
+// -----------------------------
+// 🔥 INIT
+// -----------------------------
+async function init() {
+  await loadEPG();
+  await loadChannels();
+}
+
+init();

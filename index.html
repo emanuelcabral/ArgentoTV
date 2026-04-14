@@ -16,12 +16,44 @@
 
   <main>
 
-    <!-- LISTA DE CANALES (logo + nombre + epg debajo) -->
+    <!-- LISTA DE CANALES -->
     <div id="channel-list"></div>
 
     <!-- PLAYER -->
     <div id="player-container">
-      <video id="video" controls autoplay></video>
+
+      <!-- 🔥 VIDEO SIN CONTROLES NATIVOS -->
+      <video id="video" autoplay></video>
+
+      <!-- 🔥 OVERLAY (INFO CANAL) -->
+      <div id="overlay">
+        <div class="overlay-content">
+          <img id="overlay-logo">
+          <div class="overlay-text">
+            <div id="overlay-name"></div>
+            <div id="overlay-epg"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🔥 CONTROLES PERSONALIZADOS -->
+      <div id="custom-controls">
+
+        <button id="play-pause-btn">⏯</button>
+
+        <input 
+          id="volume-slider" 
+          type="range" 
+          min="0" 
+          max="1" 
+          step="0.05" 
+          value="1"
+        >
+
+        <button id="fullscreen-btn">⛶</button>
+
+      </div>
+
     </div>
 
   </main>

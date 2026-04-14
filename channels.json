@@ -191,6 +191,12 @@
   "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" 
 },
+{ 
+  "name": "Canal de la ciudad",
+  "url": "https://www.youtube.com/watch?v=AMiVAF_tuJ4", 
+  "type": "youtube",
+  "logo": "https://yt3.ggpht.com/ytc/AIdro_mhWI95Ymyqyg1FauU8rwtUC8lZIb3vkAhFwhA71hfwRlw=s88-c-k-c0x00ffffff-no-rj" 
+},
 
 { 
   "name": "Bravo TV", 
