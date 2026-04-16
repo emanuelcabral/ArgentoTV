@@ -2,16 +2,13 @@
   {
     "epg_url": "https://iptv-epg.org/files/epg-ar.xml"
   },
+
   {
-    "name": "canal 4 jujuy",
-    "url": "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8",
-    "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
+    "name": "canal 7 jujuy",
+    "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8",
+    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l_ZC_dWMMdsSFdYvD6f0u4QKOWi6ca8oLV6y1IjMZiVA=s160-c-k-c0x00ffffff-no-rj"
   },
-  {
-    "name": "canal 13 jujuy",
-    "url": "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqHXWjbMhad5z4dezNF401c-mF1aFH78hDfg&s"
-  },
+  
   {
     "name": "cam alto comedero jujuy",
     "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live1/playlist.m3u8",
@@ -47,15 +44,17 @@
     "url": "https://5cd577a3dd8ec.streamlock.net/CAMARAS/live8/playlist.m3u8",
     "logo": "https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png"
   },
-  {
-    "name": "canal 7 jujuy",
-    "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l_ZC_dWMMdsSFdYvD6f0u4QKOWi6ca8oLV6y1IjMZiVA=s160-c-k-c0x00ffffff-no-rj"
-  },
+
   {
     "name": "grupo maxima sintonia jujuy",
     "url": "https://videostream.shockmedia.com.ar:19360/grupomaxima/grupomaxima.m3u8",
     "logo": "https://grupomaxima.com.ar/wp-content/uploads/2025/03/EN-VIVO-radio-ideasdelnorte-gaston-lopez-tilcara-jujuy-grupo-maxima-fm-300x171.png"
+  },
+
+  {
+    "name": "canal 13 jujuy",
+    "url": "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqHXWjbMhad5z4dezNF401c-mF1aFH78hDfg&s"
   },
 
 {
@@ -64,13 +63,7 @@
   "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png",
   "epg_id": "TelevisionPublica.ar"
 },
-{
-  "name": "Tv Publica (YouTube)",
-  "url": "https://youtu.be/zpxyq7MTbMU",
-  "type": "youtube",
-  "logo": "https://e7.pngegg.com/pngimages/29/608/png-clipart-television-publica-argentina-television-public-broadcasting-partidos-television-text.png",
-  "epg_id": "TelevisionPublica.ar"
-},
+
 {
   "name": "Canal 9 - El nueve",
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-16.playlist.m3u8",
@@ -78,13 +71,7 @@
   "epg_id": "ELNueve.ar",
   "epg_url":"https://iptv-epg.org/files/epg-ar.xml"
 },
-{
-  "name": "Canal 9 (YouTube)",
-  "url": "https://www.youtube.com/watch?v=63FF72LFxAw",
-  "type": "youtube",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png",
-  "epg_id": "ELNueve.ar"
-},
+
 {
   "name": "Telefe 1080p",
   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8",
@@ -116,6 +103,7 @@
   "logo": "https://images.seeklogo.com/logo-png/46/2/todo-noticias-logo-png_seeklogo-462511.png",
   "epg_id": "TN.ar"
 },
+
 {
   "name": "A24 (YouTube)",
   "url": "https://youtu.be/ArKbAx1K-2U",
@@ -123,34 +111,14 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
   "epg_id": "A24.ar"
 },
-{ 
-  "name": "Telesur", 
-  "url": "https://youtu.be/uGK8rHot0Pc", 
-  "type": "youtube", 
-  "logo": "https://cubaenresumen.org/wp-content/uploads/2024/05/unnamed.png" 
+{
+  "name": "A24 (YouTube)",
+  "url": "https://www.youtube.com/embed/ArKbAx1K-2U?si=hNLIQk5iqWX-uS0U",
+  "type": "youtube",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
+  "epg_id": "A24.ar"
 },
-{ 
-  "name": "France 24", 
-  "url": "https://youtu.be/Y-IlMeCCtIg", 
-  "type": "youtube", 
-  "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
-},
-{ 
-  "name": "RT", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-98.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" 
-},
-{ 
-  "name": "DW en Español", 
-  "info": "Internacional Alemania HD", 
-  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" 
-},
-{ 
-  "name": "DW En Esp", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-13.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" 
-},
+
 { 
   "name": "Ar|12", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-21.playlist.m3u8", 
@@ -192,10 +160,23 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" 
 },
 { 
-  "name": "Canal de la ciudad",
+  "name": "Canal de la ciudad (youtube)",
   "url": "https://www.youtube.com/watch?v=AMiVAF_tuJ4", 
   "type": "youtube",
   "logo": "https://yt3.ggpht.com/ytc/AIdro_mhWI95Ymyqyg1FauU8rwtUC8lZIb3vkAhFwhA71hfwRlw=s88-c-k-c0x00ffffff-no-rj" 
+},
+
+{ 
+  "name": "Diputados TV(youtube)", 
+  "url": "https://www.youtube.com/watch?v=85q4bg3jqJo", 
+  "type": "youtube", 
+  "logo": "https://directostv.teleame.com/wp-content/uploads/2017/10/DTV-Diputados-Television-en-vivo-Online.png" 
+},
+{ 
+  "name": "Senado TV(youtube)", 
+  "url": "https://www.youtube.com/watch?v=VpgSEQvoSc4", 
+  "type": "youtube", 
+  "logo": "https://yt3.ggpht.com/kaO8e3bd3xqbgw31-KwLQsZsVwi4P5301Us8xjCkrB4qzW2MSEa6Mp39JIYj2RUYaQ03-JUX=s88-c-k-c0x00ffffff-no-rj" 
 },
 
 { 
@@ -208,6 +189,56 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-80.playlist.m3u8", 
   "logo": "https://www.grupocronica.com.ar/resources/img/tv/cronica_Bravo_TV.jpg" 
 },
+
+{ 
+  "name": "Bolivia TV", 
+  "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(GRpBcoNwQ2ejnuQbbpL5-6WHJVtBE_HDmC9_K6sGkrf4LxR6jzHD14QMBl9Le47Dsgtc_dZjAblMbajkksw2Nb92QDJwl1UPM1rKi_gsnM4dSUgunoWC18iTqJKO8pm3)/cloud/3/x9nzqpo/d/live-720.m3u8", 
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/4220fb43cbd390c1ccd48ff7a6518dac.webp" 
+},
+{ 
+  "name": "Telesur venezuela", 
+  "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8", 
+  "logo": "https://cubaenresumen.org/wp-content/uploads/2024/05/unnamed.png" 
+},
+
+{ 
+  "name": "France 24 ENG", 
+  "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8", 
+  "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
+},
+{ 
+  "name": "France 24 (youtube)", 
+  "url": "https://youtu.be/Y-IlMeCCtIg", 
+  "type": "youtube", 
+  "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
+},
+
+{ 
+  "name": "RT", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-98.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" 
+},
+
+{ 
+  "name": "RT Rusia Today", 
+  "url": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" 
+},
+
+{ 
+  "name": "DW en Español", 
+  "info": "Internacional Alemania HD", 
+  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" 
+},
+
+
+{ 
+  "name": "CNN en Español", 
+  "url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist1080p.m3u8", 
+  "logo": "https://th.bing.com/th/id/R.64166a63fd8b8511d16bae80a5c3aab3?rik=ok0sofIA9f76GQ&riu=http%3a%2f%2flogotypes101.com%2flogos%2f811%2f701FCD27576D7CB4F06ECA1195277C97%2fCNN_En_Espanol.png&ehk=GyfoQxIdqRzi2YScEsJCiYT5DsQgrovlN5L0geiMuAk%3d&risl=&pid=ImgRaw&r=0" 
+},
+
 { 
   "name": "TV Universidad", 
   "url": "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8", 
@@ -264,6 +295,39 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/E%21_Logo.svg" 
 },
 { 
+  "name": "Lifetime - no funciona", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-14.playlist.m3u8", 
+  "logo": "https://images.squarespace-cdn.com/content/v1/64b9f6423251ee5726047a6b/7ab61752-35f2-4f8e-8c46-b299b177bf3c/1.png?format=1000w" 
+},
+
+{ 
+  "name": "Telemundo", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-26.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Telemundo_logo_2012.svg/1280px-Telemundo_logo_2012.svg.png" 
+},
+{ 
+  "name": "Canal de las Estrellas", 
+  "url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_4.m3u8", 
+  "logo": "https://th.bing.com/th/id/R.409d4e93b12906a2f640e144cdda2042?rik=lC4viGxrvgPXTg&pid=ImgRaw&r=0" 
+},
+{ 
+  "name": "Pasiones", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/10_.m3u8?token=n0IC7IXjnaMaMkLZ-cBb-g&expires=1776326471", 
+  "logo": "https://www.tvporinternet2.com/imge/pasiones.webp" 
+},
+{ 
+  "name": "Tln Telenovelas",
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/12_.m3u8?token=HFNZPhL7LVWWe1a2a8nhpw&expires=1776326913", 
+  "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
+},
+
+{ 
+  "name": "univision", 
+  "url": "https://c4b7b0c6e55c4792918dfa0764b34d20.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-254-UNIVISION247NEWS-VIZIO_PARTNER/mt/vizio/254/hls/master/playlist.m3u8", 
+  "logo": "https://www.pngall.com/wp-content/uploads/15/Univision-Logo-PNG-Picture.png" 
+},
+
+{ 
   "name": "History", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-40.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg" 
@@ -293,10 +357,47 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-99.playlist.m3u8", 
   "logo": "https://e7.pngegg.com/pngimages/165/148/png-clipart-discovery-turbo-television-channel-discovery-channel-logo-others-miscellaneous-television.png" 
 },
+
+{ 
+  "name": "hgtv home and garden  - no funciona", 
+  "url": "", 
+  "logo": "https://tse3.mm.bing.net/th/id/OIP.KcS5wvG7lgz9es6RVzaAhgHaEf?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery world  - no funciona", 
+  "url": "", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.c6t7qVXTmwNz0xK1NOqLKQHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery theater  - no funciona", 
+  "url": "", 
+  "logo": "https://tse1.mm.bing.net/th/id/OIP.dCqupf9WiNyptTQtto2EdQHaCS?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery science  - no funciona", 
+  "url": "", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.s8VHXQ41O6p_ZXySICN18QHaHm?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery tlc  - no funciona", 
+  "url": "", 
+  "logo": "https://1000logos.net/wp-content/uploads/2020/08/TLC-Logo-640x400.png" 
+},
+
 { 
   "name": "Animal Planet", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-45.playlist.m3u8", 
   "logo": "https://images.seeklogo.com/logo-png/34/1/animal-planet-new-logo-png_seeklogo-346957.png" 
+},
+{ 
+  "name": "Love Nature", 
+  "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/480p-cc/index.m3u8", 
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/89902ad1c93745ba04306321089fd39d.webp" 
+},
+{ 
+  "name": "Nature Time", 
+  "url": "https://amg01576-blueskyeenterta-naturetimeemea-lges-afzij.amagi.tv/ts-eu-w1-n2/playlist/amg01576-blueskyeenterta-naturetimeemea-lges/cb563516657b62909bc93b78d9f462eda65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5dab6852db80148b6f4adafb8c2360625f5c98435ee3b02bf7a8fe5c41de72a1af1c56953d51b6d310c9d41bbed4c9589742846bf015cb93ed828241829b9165a956b3300f5e772ac9824b93a325de5b31f45be6131d755c38d3ad9aea4b38c674575decfad8cd1d9571e0a8554ce4aad97af5618b229e63ea28aae45ca9aebaa5220b59f68233e940d16665715f75b39f46823ada5eb6878dceb43228e860dd30223b91b2e81c8dc01491b91922d5030015cf8b4c9791b3ccbafedd0ad412c3c9f0972a510e4d3042d70decca369b1ed476fe9a4861441b10e4da74d496d55b07674dad894a9b4648ee95d8d59f4610e2543676a420d5520e698c13697fee22b0da1f649b2907807a6caf0e7bd00cacf67cb594dae30729bc919211a821bce34af7f205e63c680f4ce3bc7c11153e08ba8451043e7dcc52f7939bb1056e2ed8b79cae8e034248537e7f0588f0e8639488d45b743bc850346f671f11827eb84cdb074c40638929daa20d7b9215634ac2a22c564e6386c2d2d0d2832a255d9733609b2282601b5f145022d82601b49d870921/155/1280x720_2964940/index.m3u8", 
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/01dba979fbedf67fddbc197ab69608aa.webp" 
 },
 { 
   "name": "National Geographic", 
@@ -314,6 +415,35 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-23.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_TVE-Internacional.svg" 
 },
+{ 
+  "name": "Antena 3 España", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/14_.m3u8?token=QEtmBWdBysph_6k-bDPqkQ&expires=1776327168", 
+  "logo": "https://www.tvporinternet2.com/imge/antena3.webp" 
+},
+
+{ 
+  "name": "RTV 24h ESPAÑA", 
+  "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Efh7Zgd6QTmd4Fk7V8_rnNrnR49CcMgWXQ&s" 
+},
+
+{ 
+  "name": "Galicia TV", 
+  "url": "https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_7Pi1kh5Qiz0KZ7pmSmXzM-lXSwRbLf9O3w&s" 
+},
+
+{ 
+  "name": "HispanTV", 
+  "url": "https://live.presstv.ir/hls/hispantv.m3u8", 
+  "logo": "https://cdn.prod.website-files.com/6883c5d2010468090688a047/6894a7f0e1cb7d3dd3202154_HispanTV.png" 
+},
+
+{ 
+  "name": "Bloomberg en Ingles", 
+  "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8", 
+  "logo": "https://iptv-pro.github.io/logo/Bloomberg%20Television.png" 
+},
 
 { 
   "name": "DeporTV", 
@@ -322,14 +452,60 @@
 },
 { 
   "name": "DirecTV Sports", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-04.playlist.m3u8", 
+  "url": "https://a2vlca.fubohd.com/dsports/mono.m3u8?token=c1cea34252e7b9c715a63d58962a12a7b2a96a9a-b3-1776241144-1776223144", 
   "logo": "https://pbs.twimg.com/media/FhSdYd1WAAE8b5R.jpg" 
+},
+{ 
+  "name": "DirecTV Sports", 
+  "url": "https://x4bnd7lq.fubohd.com/dsports/mono.m3u8?token=71d2d18bbb162cc351c7ebaa1b6a61cb21140cf0-ad-1776316945-1776298945", 
+  "logo": "https://pbs.twimg.com/media/FhSdYd1WAAE8b5R.jpg" 
+},
+{ 
+  "name": "DirecTV Sports 2", 
+  "url": "https://tyg2mnl9.fubohd.com/dsports2/mono.m3u8?token=567e1df571411f2ff88691b8d579f3af9c90516b-e6-1776241662-1776223662", 
+  "logo": "https://bestleague.world/img/dsports2.webp" 
+},
+{ 
+  "name": "DirecTV Sports 2", 
+  "url": "https://a2vlca.fubohd.com/dsports2/mono.m3u8?token=ac8123c18e79296599223aa28bde965592c13607-f7-1776317106-1776299106", 
+  "logo": "https://bestleague.world/img/dsports2.webp" 
+},
+{ 
+  "name": "DirecTV Sports +", 
+  "url": "https://doc1.streameasthd.net/dsportsplus/tracks-v1a1/mono.m3u8?ip=153.67.7.49&token=47d2345553b56bac37ba921b124c0c4b04521ef7-4a-1776269909-1776215909", 
+  "logo": "https://bestleague.world/img/dsportsplus.webp" 
+},
+{ 
+  "name": "DirecTV Sports +", 
+  "url": "https://98ca2.streameasthd.net/dsportsplus/tracks-v1a1/mono.m3u8?ip=98.97.134.95&token=a05aefc53c12b75f58f15ab0589a1aa2520e10d9-fb-1776345075-1776291075", 
+  "logo": "https://bestleague.world/img/dsportsplus.webp" 
 },
 
 { 
   "name": "TNT Sports Premium", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-04.playlist.m3u8", 
   "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
+},
+{ 
+  "name": "TNT Sports Premium", 
+  "url": "https://aw1wcm92zq.fubohd.com/tntsports/mono.m3u8?token=79d953cc91b9587f3abb5a264bac1c3a183772a4-c5-1776244066-1776226066", 
+  "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
+},
+{ 
+  "name": "TNT Sports Premium", 
+  "url": "https://51a1.streameasthd.net/tntsports/tracks-v1a1/mono.m3u8?ip=153.67.7.49&token=ddc6fcafea90d87f9ad643ca212214dc0b347fc5-0c-1776272059-1776218059", 
+  "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
+},
+
+{ 
+  "name": " tnt sports1  - no funciona", 
+  "url": "", 
+  "logo": "https://brandlogo.org/wp-content/uploads/2024/06/TNT-Sports-Logo.png" 
+},
+{ 
+  "name": " tnt sports2  - no funciona", 
+  "url": "", 
+  "logo": "https://media.info/l/o/1/1540.1690027877.png" 
 },
 
 { 
@@ -356,12 +532,12 @@
 { 
   "name": "fox sports 2", 
   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-93.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Logo_Fox_Sports_2_Argentina_2023.png" 
+  "logo": "https://bestleague.world/img/foxnew2.png" 
 },
 { 
   "name": "fox sports 3", 
   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-92.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Logo_Fox_Sports_3_Argentina_2023.png" 
+  "logo": "https://bestleague.world/img/foxnew3.png" 
 },
 
 { 
@@ -369,6 +545,22 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-02.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/d/db/ESPN_Premium_logo.png" 
 },
+{ 
+  "name": "Espn Premium", 
+  "url": "https://x4bnd7lq.fubohd.com/espnpremium/mono.m3u8?token=f571208c64ea4484c673ea09db17c84fb155f504-c0-1776243764-1776225764", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/db/ESPN_Premium_logo.png" 
+},
+{ 
+  "name": "Espn Premium", 
+  "url": "https://tyg2mnl9.fubohd.com/espnpremium/mono.m3u8?token=a47ec396676fe31df4c5a9390cdebdbb86255b18-3f-1776243286-1776225286", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/db/ESPN_Premium_logo.png" 
+},
+{ 
+  "name": "Espn Premium", 
+  "url": "https://14c51.streameasthd.net/espnpremium/tracks-v1a1/mono.m3u8?ip=153.67.7.49&token=ed447b61990ba71c0445997bd6102759d8564206-9a-1776271266-1776217266", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/db/ESPN_Premium_logo.png" 
+},
+
 { 
   "name": "Espn", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-94.playlist.m3u8", 
@@ -395,9 +587,19 @@
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2SfWvS72hAWhFGWsfZ7CslVNhrOj9MIppw&s" 
 },
 { 
+  "name": "Espn 6", 
+  "url": "https://c2nvdxq.fubohd.com/espn6/mono.m3u8?token=e90b18370d6de7834410b4de2d6303fa92686cc1-d8-1776243064-1776225064", 
+  "logo": "https://bestleague.world/img/espn6.webp" 
+},
+{ 
   "name": "Espn 7", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-106.playlist.m3u8", 
   "logo": "https://images.seeklogo.com/logo-png/52/1/espn-7-logo-png_seeklogo-522718.png" 
+},
+{ 
+  "name": "TUDN", 
+  "url": "https://51a1.streameasthd.net/tudn_usa/tracks-v1a1/mono.m3u8?ip=153.67.7.49&token=d21a5cd6ce11aa8e186dbdc6c16c50bf63fed4c8-33-1776272288-1776218288", 
+  "logo": "https://bestleague.world/img/tudn.png" 
 },
 
 { 
@@ -417,9 +619,10 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png" 
 },
 { 
-  "name": "Telemundo", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-26.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Telemundo_logo_2012.svg/1280px-Telemundo_logo_2012.svg.png" 
+  "name": "Food Network en ENG (Youtube)", 
+  "url": "https://www.youtube.com/watch?v=rxP-9vgI5BE", 
+  "type":"youtube",
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/095f1f58e7ad4fe991eb4ff580c9678b.webp" 
 },
 
 { 
@@ -514,6 +717,28 @@
   "url": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ciudad_magazine_logo.png" 
 },
+{ 
+  "name": "Adult Swim - no funciona", 
+  "url": "", 
+  "logo": "https://fontpearl.com/wp-content/uploads/2023/10/Adult-Swim-Font-Family-Free-Download-1-768x496.jpg" 
+},
+{ 
+  "name": "USA syfy", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/57_.m3u8?token=wh3cApmNBqjrkifJIKX03g&expires=1776323959", 
+  "logo": "https://www.tvporinternet2.com/imge/usa.webp" 
+},
+
+{ 
+  "name": "TNT Series", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-64.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/86/TNT_Series.png" 
+},
+
+{ 
+  "name": "TNT Novelas", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-65.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" 
+},
 
 { 
   "name": "Comedy Central", 
@@ -528,6 +753,42 @@
 },
 
 { 
+  "name": "AXN", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-77.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png" 
+},
+
+{ 
+  "name": "A&E", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-71.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/3840px-A%26E_Network_logo.svg.png" 
+},
+
+{ 
+  "name": "Warner TV", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-73.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png" 
+},
+
+{ 
+  "name": "AMC", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-76.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AMC_logo_2016.svg" 
+},
+
+{ 
+  "name": "FX", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-72.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg" 
+},
+
+{ 
+  "name": "FX FHD", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-78.playlist.m3u8", 
+  "logo": "https://www.pngkey.com/png/full/302-3027373_fx-hd-logo-fx-hd-channel-logo.png" 
+},
+
+{ 
   "name": "Cinemax", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-61.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" 
@@ -537,18 +798,6 @@
   "name": "Cinecanal", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-62.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png" 
-},
-
-{ 
-  "name": "TNT Series", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-64.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/86/TNT_Series.png" 
-},
-
-{ 
-  "name": "TNT Novelas", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-65.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" 
 },
 
 { 
@@ -582,64 +831,15 @@
 },
 
 { 
-  "name": "A&E", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-71.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/3840px-A%26E_Network_logo.svg.png" 
-},
-
-
-{ 
-  "name": "Warner TV", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-73.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png" 
-},
-
-{ 
-  "name": "Volver", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-74.playlist.m3u8", 
-  "logo": "https://www.volver.com.ar/img/logo.png" 
+  "name": "Sony movies - no funciona", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-70.playlist.m3u8", 
+  "logo": "https://bb-media.com/wp-content/uploads/2025/04/1200px-Sony_Movies_Logo.svg_.png" 
 },
 
 { 
   "name": "Universal TV", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-75.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/3840px-Universal_TV_logo.svg.png" 
-},
-
-{ 
-  "name": "Film & Arts", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-76.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Film%26Arts2016.png" 
-},
-
-{ 
-  "name": "AMC", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-76.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AMC_logo_2016.svg" 
-},
-
-{ 
-  "name": "AXN", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-77.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png" 
-},
-
-{ 
-  "name": "FX", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-72.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg" 
-},
-
-{ 
-  "name": "FX FHD", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-78.playlist.m3u8", 
-  "logo": "https://www.pngkey.com/png/full/302-3027373_fx-hd-logo-fx-hd-channel-logo.png" 
-},
-
-{ 
-  "name": "TCM", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-79.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png" 
 },
 
 { 
@@ -683,6 +883,128 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-110.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/3840px-HBO_Mundi.svg.png" 
 },
+
+{ 
+  "name": "Film & Arts", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-76.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Film%26Arts2016.png" 
+},
+
+{ 
+  "name": "TCM", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-79.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png" 
+},
+
+{ 
+  "name": "Volver", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-74.playlist.m3u8", 
+  "logo": "https://www.volver.com.ar/img/logo.png" 
+},
+
+{ 
+  "name": "MP Multipremier", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/66_.m3u8?token=UgvmY_XaQlI6aIi3sQXqvA&expires=1776324370", 
+  "logo": "https://www.tvporinternet2.com/imge/multipremier.webp" 
+},
+{ 
+  "name": "Golden", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/67_.m3u8?token=bD-dpIO2aTWkQWDj0dywJQ&expires=1776320705", 
+  "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
+},
+{ 
+  "name": "Golden", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/67_.m3u8?token=e_SWOqYAotmSMOhebS2Ofw&expires=1776320800", 
+  "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
+},
+{ 
+  "name": "Golden", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/67_.m3u8?token=AesDIEtWu8e9qfD3s53UqQ&expires=1776320860", 
+  "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
+},
+{ 
+  "name": "Golden", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/67_.m3u8?token=eEyF8oLyegbJLT71nhZQiw&expires=1776320913", 
+  "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
+},
+{ 
+  "name": "Golden Plus", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/68_.m3u8?token=CC9_8kdTjJu0zvymBt5hyQ&expires=1776323406", 
+  "logo": "https://www.tvporinternet2.com/imge/goldenplus.webp" 
+},
+{ 
+  "name": "Golden Edge", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/69_.m3u8?token=6PKEXkRc33A9pWWDbwfHkA&expires=1776323885", 
+  "logo": "https://www.tvporinternet2.com/imge/goldenedge.webp" 
+},
+{ 
+  "name": "Golden Premier", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/70_.m3u8?token=zsojCZESKl1U9gjOvNzGpQ&expires=1776323661", 
+  "logo": "https://www.tvporinternet2.com/imge/goldenpremier.webp" 
+},
+
+{ 
+  "name": "Universal comedy - no funciona", 
+  "url": "", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5f/Universal_Comedy.svg/revision/latest/scale-to-width-down/250?cb=20220311032038" 
+},
+{ 
+  "name": "Universal cinema - no funciona", 
+  "url": "", 
+  "logo": "https://www.tvporinternet2.com/imge/universalcinema.webp" 
+},
+{ 
+  "name": "Universal premiere - no funciona", 
+  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/50_.m3u8?token=YZzaegTOIqQbZMo4Dkp1iQ&expires=1776327593", 
+  "logo": "https://www.tvporinternet2.com/imge/universalpremiere.webp" 
+},
+{ 
+  "name": "Universal crime - no funciona", 
+  "url": "", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Universal_Crime.svg/revision/latest/scale-to-width-down/250?cb=20220311032018" 
+},
+{ 
+  "name": "Universal reality - no funciona", 
+  "url": "", 
+  "logo": "https://ni.codice.tv/wp-content/uploads/2022/05/u-reality.png" 
+},
+
+{ 
+  "name": "Europa Europa - no funciona", 
+  "url": "", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.oFHZbMh_HXONgH6JJpnThQHaJp?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+
+{ 
+  "name": "dhe - no funciona", 
+  "url": "", 
+  "logo": "https://tse3.mm.bing.net/th/id/OIP.toQhkqZkXWCm-JsyftIl6AHaDV?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+
+{ 
+  "name": "Peliculas", 
+  "url": "https://s2.tvdatta.com:3307/hybrid/play.m3u8", 
+  "logo": "https://png.pngtree.com/png-vector/20220125/ourmid/pngtree-cinema-logo-logo-video-entertainment-vector-png-image_26229228.png" 
+},
+
+{ 
+  "name": "Frecuencia musical tv", 
+  "url": "https://s2.tvdatta.com:3753/hybrid/play.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSje85UeM53ryOshSR3o7E5NyU0euKVAd-xqQ&s" 
+},
+
+{ 
+  "name": "Radio Mitre", 
+  "url": "https://www.youtube.com/watch?v=ybXIVVg6epw", 
+  "type":"youtube",
+  "logo": "https://yt3.ggpht.com/LxXG-3oOpCykA27GwVGpcrWDmfe1KVvTy_69EjBBCkpUAtTjJhNGWmW0WVubfZjOEP8JQ5FO=s88-c-k-c0x00ffffff-no-rj" 
+},
+{ 
+  "name": "Radio POP", 
+  "url": "https://www.youtube.com/watch?v=XYwIrPQd25Q", 
+  "type":"youtube",
+  "logo": "https://yt3.ggpht.com/oCZyfZCYBsoQL6GW90v-0k5wkC1oZV-cNQubNML72Kat7I0Jzq2YdPZhGjsFltBw8o4cIlJZtw=s88-c-k-c0x00ffffff-no-rj" 
+},
 { 
   "name": "Radio Latina", 
   "url": "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8", 
@@ -700,6 +1022,7 @@
   "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkLJHApATNTJtN-sKj66Q91X66RBA11TYcbg&s" 
 },
+
 
 { 
   "name": "Mtv", 
@@ -720,9 +1043,35 @@
 },
 
 { 
+  "name": "cm  - no funciona", 
+  "url": "https://vmf.edge-apps.net/embed/live.php?streamname=CM_CanaldelaMusica-100044", 
+  "type":"youtube",
+  "logo": "https://directostv.teleame.com/wp-content/uploads/2020/10/CM-El-Canal-de-la-Musica-en-vivo-Online.png" 
+},
+
+{ 
+  "name": "htv - no funciona", 
+  "url": "", 
+  "logo": "https://tse4.mm.bing.net/th/id/OIP.8JNAFnXCe6GrV-8xf-LxZgHaIh?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+
+{ 
   "name": "Urban Play", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-52.playlist.m3u8", 
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtP7gqRSmFzKvRODAYO5rd6bWXc9K9jfDlFVPnVD67A3rWJKLcBYzbaWi64SKolm55mfCnIw5CSVrXdhM3AduR9ehYXp_o0E1bLFp4xsbFjLYTcbokx7OZeOiugrfiHAcHWZZbNbDE0AHKt2lu_wkmAgyS32u43Dn_D2hHVkAZZeZD3NrYQWgt6U0oYN8/s4878/LOGO%20URBANA%20PLAY%20horizontal%20NEGRO.png" 
+},
+
+
+
+{ 
+  "name": "Venus media (canal de musica)", 
+  "url": "https://zn1gen.desdeparaguay.net/venusmedia/venusmedia/chunklist_w977457673.m3u8?k=1387f3d9f06596ae5cb48d81ebde833d56d3a2067c4ac68a60b4b8ea3617c907&exp=177622725", 
+  "logo": "https://bestleague.world/img/venus.png" 
+},
+{ 
+  "name": "Ok fm (canal de musica)", 
+  "url": "https://streamlov.alsolnet.com/okfm/live/playlist.m3u8", 
+  "logo": "https://cdn-profiles.tunein.com/s243411/images/logog.jpg?t=1689259586000" 
 },
 
 { 
@@ -767,12 +1116,34 @@
   "logo": "https://pedrorodriguez2.wordpress.com/wp-content/uploads/2011/09/radio_maria_international.png?w=640" 
 },
 
+{ 
+  "name": "GEN TV", 
+  "url": "https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8", 
+  "logo": "https://teleonline.org/wp-content/uploads/2025/09/qGddRW4.png" 
+},
 
+{ 
+  "name": "Bayres TV", 
+  "url": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbNzH0zVQkRxiWOPejxt7EJrShfRef67azOQ&s" 
+},
+
+{ 
+  "name": "Telecreativa", 
+  "url": "https://panel.host-live.com:19360/8012/8012.m3u8", 
+  "logo": "https://pbs.twimg.com/profile_images/510187063656734720/yJP5CzDB_400x400.png" 
+},
+
+{ 
+  "name": "RTS Television Santafesina", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-13.playlist.m3u8", 
+  "logo": "https://rtsmedios.com.ar/wp-content/uploads/2024/12/logo-rts.png" 
+},
 
 { 
   "name": "Canal 9 - litoral", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-18.playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=9" 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/Canal_9_Litoral_logo_2021.png" 
 },
 { 
   "name": "Somos Santa Fe", 
@@ -1016,11 +1387,7 @@
   "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8", 
   "logo": "https://via.placeholder.com/40?text=AZ" 
 },
-{ 
-  "name": "Bayres TV", 
-  "url": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=BT" 
-},
+
 
 { 
   "name": "Aire de Santa Fe", 
@@ -1071,21 +1438,13 @@
   "url": "https://panel.host-live.com:19360/8118/8118.m3u8", 
   "logo": "https://via.placeholder.com/40?text=CF" 
 },
-{ 
-  "name": "Telecreativa", 
-  "url": "https://panel.host-live.com:19360/8012/8012.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=TC" 
-},
+
 { 
   "name": "La radio de todos .com", 
   "url": "https://video1.makrodigital.com/laradiodetodos/laradiodetodos/playlist.m3u8", 
   "logo": "https://via.placeholder.com/40?text=RT" 
 },
-{ 
-  "name": "Ok fm (canal de musica)", 
-  "url": "https://streamlov.alsolnet.com/okfm/live/playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=OK" 
-},
+
 { 
   "name": "Cadena am 1470", 
   "url": "https://stmvideo1.livecastv.com/am1470/am1470/playlist.m3u8", 
@@ -1097,28 +1456,13 @@
   "url": "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8", 
   "logo": "https://via.placeholder.com/40?text=RL" 
 },
-{ 
-  "name": "Bloomberg en Ingles", 
-  "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8", 
-  "logo": "https://iptv-pro.github.io/logo/Bloomberg%20Television.png" 
-},
+
 { 
   "name": "11 en ingles", 
   "url": "https://www.bloomberg.com/media-manifest/streams/qt.m3u8", 
   "logo": "https://iptv-pro.github.io/logo/Bloomberg%20Television.png" 
 },
 
-{ 
-  "name": "CGTN", 
-  "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" 
-},
-
-{ 
-  "name": "DW en esp", 
-  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8", 
-  "logo": "https://i.imgur.com/YEs2cGe.png" 
-},
 
 { 
   "name": "Estrella games en esp", 
@@ -1137,45 +1481,9 @@
 },
 
 { 
-  "name": "Fashion tv", 
-  "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FashionTV_logo.svg/320px-FashionTV_logo.svg.png" 
-},
-
-{ 
-  "name": "Galicia TV", 
-  "url": "https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/CRTVG_logo.svg/320px-CRTVG_logo.svg.png" 
-},
-
-{ 
-  "name": "Garage TV argen", 
-  "url": "https://stream1.sersat.com/hls/garagetv.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=GAR" 
-},
-
-{ 
-  "name": "HispanTV", 
-  "url": "https://live.presstv.ir/hls/hispantv.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/HispanTV_logo.png/320px-HispanTV_logo.png" 
-},
-
-{ 
-  "name": "Music toP", 
-  "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=MT" 
-},
-
-{ 
   "name": "27", 
   "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0027", 
   "logo": "https://via.placeholder.com/40?text=27" 
-},
-
-{ 
-  "name": "RTV 24h ESPAÑA", 
-  "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Canal_24_Horas_TVE.svg/320px-Canal_24_Horas_TVE.svg.png" 
 },
 
 { 
@@ -1185,72 +1493,11 @@
 },
 
 { 
-  "name": "TUDN Deportes / univision", 
-  "url": "https://c4b7b0c6e55c4792918dfa0764b34d20.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-254-UNIVISION247NEWS-VIZIO_PARTNER/mt/vizio/254/hls/master/playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/TUDN_logo.png/320px-TUDN_logo.png" 
-},
-
-{ 
-  "name": "GEN TV", 
-  "url": "https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=GEN" 
-},
-
-{ 
   "name": "34", 
   "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0034", 
   "logo": "https://via.placeholder.com/40?text=34" 
 },
 
-{ 
-  "name": "Canal 21 Orbe", 
-  "url": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=C21" 
-},
-
-{ 
-  "name": "38 ....", 
-  "url": "https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=38" 
-},
-
-{ 
-  "name": "Telesur venezuela", 
-  "url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Telesur_logo.svg/320px-Telesur_logo.svg.png" 
-},
-
-{ 
-  "name": "RT Rusia Today", 
-  "url": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia_Today_logo.svg/320px-Russia_Today_logo.svg.png" 
-},
-
-{ 
-  "name": "Canal e", 
-  "url": "https://unlimited1-saopaulo.dps.live/perfiltv/perfiltv.smil/playlist.m3u8", 
-  "logo": "https://via.placeholder.com/40?text=E" 
-},
-{ 
-  "name":"Canal 26",
-  "url":"https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
-  "logo":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Canal_26_logo.png"
-},
-{ 
-  "name":"Telemax x",
-  "url":"https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
-  "logo":"https://i.imgur.com/5cZQG6G.png"
-},
-{ 
-  "name":"Bravo TV",
-  "url":"https://jireh-1-hls-video-br-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?dpssid=b2141291981469d5d458254f8&sid=ba5t1l1xb296820544269d5d458254f5&ndvc=1",
-  "logo":"https://i.imgur.com/xuR4FQn.png"
-},
-{ 
-  "name":"Net TV",
-  "url":"https://unlimited1-saopaulo.dps.live/nettv/nettv.smil/playlist.m3u8",
-  "logo":"https://upload.wikimedia.org/wikipedia/commons/5/59/Net_TV_logo.png"
-},
 { 
   "name":"46 ....",
   "url":"https://nd106.republicaservers.com/hls/c7812/index.m3u8",

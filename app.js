@@ -143,6 +143,11 @@ function showOverlay(channel) {
 function renderChannels(data) {
   list.innerHTML = '';
 
+  if (!data || data.length === 0) {
+    list.innerHTML = "<p>No hay canales</p>";
+    return;
+  }
+
   data.forEach(channel => {
 
     const div = document.createElement('div');
@@ -171,7 +176,7 @@ function renderChannels(data) {
 }
 
 // -----------------------------
-// 🔥 PLAYER (con controles personalizados)
+// 🔥 PLAYER (FIX REAL)
 // -----------------------------
 function playChannel(channel) {
 
@@ -187,8 +192,8 @@ function playChannel(channel) {
   if (!video) {
     video = document.createElement("video");
     video.id = "video";
+    video.controls = true;
     video.autoplay = true;
-    video.controls = false;  // Desactivamos los controles predeterminados
     player.prepend(video);
   }
 
@@ -214,9 +219,6 @@ function playChannel(channel) {
   }
 
   showOverlay(channel);
-
-  // Mostrar controles personalizados
-  document.getElementById('custom-controls').classList.remove('hidden');
 }
 
 // -----------------------------
@@ -253,48 +255,6 @@ document.addEventListener("keydown", (e) => {
 player.addEventListener("dblclick", () => {
   if (!document.fullscreenElement) {
     player.requestFullscreen();
-  }
-});
-
-document.addEventListener("fullscreenchange", () => {
-  if (document.fullscreenElement) {
-    overlay.classList.add("show");  // Ensura que el overlay siempre se muestre cuando estás en pantalla completa
-  } else {
-    overlay.classList.remove("show");  // El overlay se oculta cuando sales de pantalla completa
-  }
-});
-
-// -----------------------------
-// 🔥 CONTROLES PERSONALIZADOS
-// -----------------------------
-const playPauseBtn = document.getElementById('play-pause-btn');
-const volumeSlider = document.getElementById('volume-slider');
-const fullscreenBtn = document.getElementById('fullscreen-btn');
-
-// PLAY/PAUSE BUTTON
-playPauseBtn.addEventListener('click', () => {
-  if (!video) return;
-
-  if (video.paused) {
-    video.play();
-    playPauseBtn.textContent = '⏸'; // Pause icon
-  } else {
-    video.pause();
-    playPauseBtn.textContent = '▶'; // Play icon
-  }
-});
-
-// VOLUME CONTROL
-volumeSlider.addEventListener('input', () => {
-  if (video) video.volume = volumeSlider.value;
-});
-
-// FULLSCREEN BUTTON
-fullscreenBtn.addEventListener('click', () => {
-  if (!document.fullscreenElement) {
-    player.requestFullscreen();
-  } else {
-    document.exitFullscreen();
   }
 });
 
