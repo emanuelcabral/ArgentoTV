@@ -136,6 +136,12 @@
   "epg_id": "A24.ar"
 },
 {
+  "name": "A24 ",
+  "url": "http://45.5.151.147:8000/play/a006/index.m3u8s",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
+  "epg_id": "A24.ar"
+},
+{
   "name": "A24 (YouTube)",
   "url": "https://youtu.be/ArKbAx1K-2U",
   "type": "youtube",
@@ -346,10 +352,11 @@
   "logo": "https://laguia.tv/_nuxt/img/glitz_512.72973cc.png" 
 },
 { 
-  "name": "Lifetime - no funciona", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-14.playlist.m3u8", 
+  "name": "Lifetime - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/84.m3u8", 
   "logo": "https://images.squarespace-cdn.com/content/v1/64b9f6423251ee5726047a6b/7ab61752-35f2-4f8e-8c46-b299b177bf3c/1.png?format=1000w" 
 },
+
 
 { 
   "name": "Telemundo", 
@@ -367,6 +374,11 @@
   "logo": "https://www.tvporinternet2.com/imge/pasiones.webp" 
 },
 { 
+  "name": "Pasiones", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/21.m3u8", 
+  "logo": "https://www.tvporinternet2.com/imge/pasiones.webp" 
+},
+{ 
   "name": "Tln Telenovelas",
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17404.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
@@ -374,6 +386,11 @@
 { 
   "name": "Tln Telenovelas",
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17528.m3u8", 
+  "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
+},
+{ 
+  "name": "Tln Telenovelas",
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/51.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
 },
 { 
@@ -399,6 +416,11 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg" 
 },
 { 
+  "name": "History", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/34.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg" 
+},
+{ 
   "name": "H2 History", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-41.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png" 
@@ -409,8 +431,18 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" 
 },
 { 
+  "name": "Discovery ID", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/28.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" 
+},
+{ 
   "name": "H&H Home and Health", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-43.playlist.m3u8", 
+  "logo": "https://logodownload.org/wp-content/uploads/2020/06/discovery-home-and-health-logo-0.png" 
+},
+{ 
+  "name": "H&H Home and Health", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/12.m3u8", 
   "logo": "https://logodownload.org/wp-content/uploads/2020/06/discovery-home-and-health-logo-0.png" 
 },
 { 
@@ -419,19 +451,29 @@
   "logo": "https://cdn.worldvectorlogo.com/logos/discovery-channel-4.svg" 
 },
 { 
+  "name": "Discovery channel", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/07.m3u8", 
+  "logo": "https://cdn.worldvectorlogo.com/logos/discovery-channel-4.svg" 
+},
+{ 
   "name": "Discovery turbo", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-99.playlist.m3u8", 
   "logo": "https://e7.pngegg.com/pngimages/165/148/png-clipart-discovery-turbo-television-channel-discovery-channel-logo-others-miscellaneous-television.png" 
 },
+{ 
+  "name": "Discovery turbo", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/22.m3u8", 
+  "logo": "https://e7.pngegg.com/pngimages/165/148/png-clipart-discovery-turbo-television-channel-discovery-channel-logo-others-miscellaneous-television.png" 
+},
 
 { 
-  "name": "hgtv home and garden  - no funciona", 
-  "url": "", 
+  "name": "hgtv home and garden  - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/30.m3u8", 
   "logo": "https://tse3.mm.bing.net/th/id/OIP.KcS5wvG7lgz9es6RVzaAhgHaEf?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
 { 
-  "name": "discovery world  - no funciona", 
-  "url": "", 
+  "name": "discovery world  - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/26.m3u8", 
   "logo": "https://tse2.mm.bing.net/th/id/OIP.c6t7qVXTmwNz0xK1NOqLKQHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
 { 
@@ -440,19 +482,34 @@
   "logo": "https://tse1.mm.bing.net/th/id/OIP.dCqupf9WiNyptTQtto2EdQHaCS?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
 { 
-  "name": "discovery science  - no funciona", 
-  "url": "", 
+  "name": "discovery theater  - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/17.m3u8", 
+  "logo": "https://tse1.mm.bing.net/th/id/OIP.dCqupf9WiNyptTQtto2EdQHaCS?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery science  - funciona", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/440851.m3u8", 
   "logo": "https://tse2.mm.bing.net/th/id/OIP.s8VHXQ41O6p_ZXySICN18QHaHm?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
 { 
-  "name": "discovery tlc  - no funciona", 
-  "url": "", 
+  "name": "discovery science  - funciona", 
+  "url": "http://visuales.xyz:80/live/espanistv/uNUP5XEj7SBB/440851.m3u8", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.s8VHXQ41O6p_ZXySICN18QHaHm?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery tlc  - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/19.m3u8", 
   "logo": "https://1000logos.net/wp-content/uploads/2020/08/TLC-Logo-640x400.png" 
 },
 
 { 
   "name": "Animal Planet", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-45.playlist.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/34/1/animal-planet-new-logo-png_seeklogo-346957.png" 
+},
+{ 
+  "name": "Animal Planet", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/04.m3u8", 
   "logo": "https://images.seeklogo.com/logo-png/34/1/animal-planet-new-logo-png_seeklogo-346957.png" 
 },
 { 
@@ -484,6 +541,11 @@
 { 
   "name": "Antena 3 España", 
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/14_.m3u8?token=QEtmBWdBysph_6k-bDPqkQ&expires=1776327168", 
+  "logo": "https://www.tvporinternet2.com/imge/antena3.webp" 
+},
+{ 
+  "name": "Antena 3 España", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/68.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/antena3.webp" 
 },
 
@@ -577,16 +639,15 @@
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/462.m3u8", 
   "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
 },
-
 { 
-  "name": " tnt sports1  - no funciona", 
-  "url": "", 
-  "logo": "https://brandlogo.org/wp-content/uploads/2024/06/TNT-Sports-Logo.png" 
+  "name": "TNT Sports Premium", 
+  "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/491287.m3u8", 
+  "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
 },
 { 
-  "name": " tnt sports2  - no funciona", 
-  "url": "", 
-  "logo": "https://media.info/l/o/1/1540.1690027877.png" 
+  "name": "TNT Sports Premium", 
+  "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/491287.m3u8", 
+  "logo": "https://davinci.zappingtv.com/gato/media/256/canales/color/tntsportshd.jpg" 
 },
 
 { 
@@ -641,6 +702,16 @@
   "logo": "https://bestleague.world/img/foxnew3.png" 
 },
 { 
+  "name": "fox sports 2 mx", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/114.m3u8", 
+  "logo": "https://bestleague.world/img/foxnew3.png" 
+},
+{ 
+  "name": "fox sports 3 mx", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/115.m3u8", 
+  "logo": "https://bestleague.world/img/foxnew3.png" 
+},
+{ 
   "name": "fox sports premium mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/375.m3u8", 
   "logo": "https://bestleague.world/img/foxnew3.png" 
@@ -683,6 +754,11 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/60/ESPN_logos.png" 
 },
 { 
+  "name": "Espn", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/107.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/60/ESPN_logos.png" 
+},
+{ 
   "name": "Espn 2", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-97.playlist.m3u8", 
   "logo": "https://images.seeklogo.com/logo-png/4/1/espn-2-logo-png_seeklogo-49202.png" 
@@ -693,13 +769,28 @@
   "logo": "https://images.seeklogo.com/logo-png/4/1/espn-2-logo-png_seeklogo-49202.png" 
 },
 { 
+  "name": "Espn 2", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/108.m3u8", 
+  "logo": "https://images.seeklogo.com/logo-png/4/1/espn-2-logo-png_seeklogo-49202.png" 
+},
+{ 
   "name": "Espn 3", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-96.playlist.m3u8", 
   "logo": "https://espnpressroom.com/us/files/2011/10/espn3-642x405.jpg" 
 },
 { 
+  "name": "Espn 3", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/109.m3u8", 
+  "logo": "https://espnpressroom.com/us/files/2011/10/espn3-642x405.jpg" 
+},
+{ 
   "name": "Espn 4", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-95.playlist.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfx6VvH5StHtDrMuZ3wocAJdT_ZTYsVLMAw&s" 
+},
+{ 
+  "name": "Espn 4", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/110.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfx6VvH5StHtDrMuZ3wocAJdT_ZTYsVLMAw&s" 
 },
 { 
@@ -717,9 +808,26 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-106.playlist.m3u8", 
   "logo": "https://images.seeklogo.com/logo-png/52/1/espn-7-logo-png_seeklogo-522718.png" 
 },
+
+{ 
+  "name": "Espn Disney", 
+  "url": "http://181.78.7.90:12500/play/a0dr/index.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2HL3gCY5bIhwpB2S6F0M4vfk8ugC2ONcLOA&s" 
+},
+{ 
+  "name": "Espn Deportes", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/112.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2HL3gCY5bIhwpB2S6F0M4vfk8ugC2ONcLOA&s" 
+},
+
 { 
   "name": "TUDN", 
   "url": "https://51a1.streameasthd.net/tudn_usa/tracks-v1a1/mono.m3u8?ip=153.67.7.49&token=d21a5cd6ce11aa8e186dbdc6c16c50bf63fed4c8-33-1776272288-1776218288", 
+  "logo": "https://bestleague.world/img/tudn.png" 
+},
+{ 
+  "name": "TUDN", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/128.m3u8", 
   "logo": "https://bestleague.world/img/tudn.png" 
 },
 { 
@@ -728,9 +836,24 @@
   "logo": "https://play-lh.googleusercontent.com/7kIHHu6tMwolnIiS96-w_B5n_Hi0E2PnPgRh6Nin4_cSMNpBegIPXF0SHJnuIwlC5Q" 
 },
 { 
+  "name": "Bein sports", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/101.m3u8", 
+  "logo": "https://play-lh.googleusercontent.com/7kIHHu6tMwolnIiS96-w_B5n_Hi0E2PnPgRh6Nin4_cSMNpBegIPXF0SHJnuIwlC5Q" 
+},
+{ 
+  "name": "Real madrid", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/122.m3u8", 
+  "logo": "https://yt3.googleusercontent.com/TyNbisxuIwzUBjjNkUg8mOqR9_L2eKYShayM5A-kjpFeb0p47QCail4wuUn5KfCbDmB8yQ8RnD4=s900-c-k-c0x00ffffff-no-rj" 
+},
+{ 
   "name": "Movistar deportes", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/378.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qrKDIGLB-Tg0Eq0Y_t-RAwB3Y63x-D78SA&s" 
+},
+{ 
+  "name": "Claro deportes", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/103.m3u8", 
+  "logo": "https://yt3.googleusercontent.com/5H07wSUgtBIz7hY8rIqGfSdOS6XRrgB2s0bJb0zdjNBKwttmb-Y1GNrKtjHqUIo-Y7oRHUIcLg=s900-c-k-c0x00ffffff-no-rj" 
 },
 
 { 
@@ -768,6 +891,21 @@
   "name": "Gourmet", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-25.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png" 
+},
+{ 
+  "name": "Gourmet", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/81.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png" 
+},
+{ 
+  "name": "Food Network en español", 
+  "url": "http://visuales.xyz:80/live/dis-viktorgfx/cXETNdUfKmpJ/31063.m3u8", 
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/095f1f58e7ad4fe991eb4ff580c9678b.webp" 
+},
+{ 
+  "name": "Food Network en español", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/31063.m3u8", 
+  "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/095f1f58e7ad4fe991eb4ff580c9678b.webp" 
 },
 { 
   "name": "Food Network en ENG (Youtube)", 
@@ -823,6 +961,11 @@
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-31_720.m3u8", 
   "logo": "https://www.citypng.com/public/uploads/preview/cartoon-network-cn-logo-hd-png-701751694708568zxoq18qbzl.png" 
 },
+{ 
+  "name": "Cartoon Network", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/80.m3u8", 
+  "logo": "https://www.citypng.com/public/uploads/preview/cartoon-network-cn-logo-hd-png-701751694708568zxoq18qbzl.png" 
+},
 
 { 
   "name": "Disney Jr", 
@@ -839,11 +982,26 @@
   "url": "http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD", 
   "logo": "https://1000marcas.net/wp-content/uploads/2022/01/Disney-Junior-Logo.png" 
 },
+{ 
+  "name": "Disney Jr.", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/85.m3u8", 
+  "logo": "https://1000marcas.net/wp-content/uploads/2022/01/Disney-Junior-Logo.png" 
+},
 
 { 
   "name": "Teen Nick", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/399.m3u8", 
   "logo": "https://static.wikia.nocookie.net/nickelodeon/images/d/da/TeenNick_Splat_2023.svg/revision/latest/scale-to-width-down/1200?cb=20240904132305" 
+},
+{ 
+  "name": "Nick jr", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/296.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY2H0TXgZX3VN85KydV9xVf1CCH42FbGb0g&s" 
+},
+{ 
+  "name": "Nick jr", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/90.m3u8", 
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY2H0TXgZX3VN85KydV9xVf1CCH42FbGb0g&s" 
 },
 { 
   "name": "Nickelodeon", 
@@ -863,6 +1021,11 @@
 { 
   "name": "Discovery Kids", 
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-69_720.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Discovery_Kids_%282009%29.png" 
+},
+{ 
+  "name": "Discovery Kids", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/82.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Discovery_Kids_%282009%29.png" 
 },
 
@@ -904,8 +1067,18 @@
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_ZoQk6EISShvdZZgwe_Ys2-wEzin9enpwA&s" 
 },
 { 
-  "name": "Adult Swim - no funciona", 
-  "url": "", 
+  "name": "Adult Swim - funciona", 
+  "url": "http://visuales.xyz:80/live/dis-viktorgfx/cXETNdUfKmpJ/797160.m3u8", 
+  "logo": "https://fontpearl.com/wp-content/uploads/2023/10/Adult-Swim-Font-Family-Free-Download-1-768x496.jpg" 
+},
+{ 
+  "name": "Adult Swim - funciona", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/797160.m3u8", 
+  "logo": "https://fontpearl.com/wp-content/uploads/2023/10/Adult-Swim-Font-Family-Free-Download-1-768x496.jpg" 
+},
+{ 
+  "name": "Adult Swim - funciona", 
+  "url": "http://visuales.xyz:80/live/espanistv/uNUP5XEj7SBB/797160.m3u8", 
   "logo": "https://fontpearl.com/wp-content/uploads/2023/10/Adult-Swim-Font-Family-Free-Download-1-768x496.jpg" 
 },
 { 
@@ -913,11 +1086,7 @@
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/371.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/usa.webp" 
 },
-{ 
-  "name": "USA syfy - no funciona", 
-  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/57_.m3u8?token=wh3cApmNBqjrkifJIKX03g&expires=1776323959", 
-  "logo": "https://www.tvporinternet2.com/imge/usa.webp" 
-},
+
 { 
   "name": "Paramount - no funciona", 
   "url": "", 
@@ -934,10 +1103,20 @@
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-64.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/86/TNT_Series.png" 
 },
+{ 
+  "name": "TNT Series", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/95.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/86/TNT_Series.png" 
+},
 
 { 
   "name": "TNT Novelas", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-65.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" 
+},
+{ 
+  "name": "TNT Novelas", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/89.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" 
 },
 { 
@@ -973,10 +1152,20 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17495.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png" 
 },
+{ 
+  "name": "AXN", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/06.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png" 
+},
 
 { 
   "name": "A&E", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-71.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/3840px-A%26E_Network_logo.svg.png" 
+},
+{ 
+  "name": "A&E", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/03.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/3840px-A%26E_Network_logo.svg.png" 
 },
 
@@ -990,16 +1179,31 @@
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-73_720.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png" 
 },
+{ 
+  "name": "Warner TV", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/66.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png" 
+},
 
 { 
   "name": "AMC", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-76.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AMC_logo_2016.svg" 
 },
+{ 
+  "name": "AMC", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/08.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AMC_logo_2016.svg" 
+},
 
 { 
   "name": "FX", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-72.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg" 
+},
+{ 
+  "name": "FX", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/23.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg" 
 },
 
@@ -1024,6 +1228,11 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17435.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" 
 },
+{ 
+  "name": "Cinemax", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/16.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" 
+},
 
 { 
   "name": "Cinecanal", 
@@ -1040,6 +1249,11 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17571.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png" 
 },
+{ 
+  "name": "Cinecanal", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/10.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png" 
+},
 
 { 
   "name": "TNT", 
@@ -1049,6 +1263,11 @@
 { 
   "name": "TNT", 
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-66_720.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/TNT_Logo_2016.svg" 
+},
+{ 
+  "name": "TNT", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/93.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/TNT_Logo_2016.svg" 
 },
 
@@ -1062,10 +1281,20 @@
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-67_720.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/3840px-Logo_Studio_Universal.svg.png" 
 },
+{ 
+  "name": "Studio Universal", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/54.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/3840px-Logo_Studio_Universal.svg.png" 
+},
 
 { 
   "name": "Star Channel", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-68.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Star_Channel_2020.svg" 
+},
+{ 
+  "name": "Star Channel", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/20.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Star_Channel_2020.svg" 
 },
 
@@ -1084,6 +1313,11 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17487.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/SpaceLogo.svg" 
 },
+{ 
+  "name": "Space", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/51.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/SpaceLogo.svg" 
+},
 
 { 
   "name": "Sony channel", 
@@ -1095,10 +1329,20 @@
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-70_720.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png" 
 },
+{ 
+  "name": "Sony channel", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/47.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png" 
+},
 
 { 
-  "name": "Sony movies - no funciona", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-70.playlist.m3u8", 
+  "name": "Sony movies - funciona", 
+  "url": "http://visuales.xyz:80/live/espanistv/uNUP5XEj7SBB/440741.m3u8", 
+  "logo": "https://bb-media.com/wp-content/uploads/2025/04/1200px-Sony_Movies_Logo.svg_.png" 
+},
+{ 
+  "name": "Sony movies - funciona", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/440741.m3u8", 
   "logo": "https://bb-media.com/wp-content/uploads/2025/04/1200px-Sony_Movies_Logo.svg_.png" 
 },
 { 
@@ -1112,14 +1356,29 @@
   "logo": "https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-" 
 },
 { 
-  "name": "Sony one - blacklist", 
+  "name": "Sony - blacklist", 
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17631.m3u8", 
   "logo": "https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-" 
+},
+{ 
+  "name": "Sony cine", 
+  "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17633.m3u8", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb=20210222022500&path-prefix=es" 
+},
+{ 
+  "name": "Sony cine", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/50.m3u8", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb=20210222022500&path-prefix=es" 
 },
 
 { 
   "name": "Universal TV", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-75.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/3840px-Universal_TV_logo.svg.png" 
+},
+{ 
+  "name": "Universal TV", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/59.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/3840px-Universal_TV_logo.svg.png" 
 },
 
@@ -1144,24 +1403,49 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png" 
 },
 { 
+  "name": "HBO Family", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/33.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png" 
+},
+{ 
   "name": "HBO Xtreme", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-103.playlist.m3u8", 
   "logo": "https://vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/logos/canal-hbo-xtreme-252x252.png" 
 },
 { 
-
+  "name": "HBO Xtreme", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/40.m3u8", 
+  "logo": "https://vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/logos/canal-hbo-xtreme-252x252.png" 
+},
+{ 
   "name": "HBO 2", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-105.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hbo_2.png" 
+},
+{ 
+  "name": "HBO 2", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/32.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hbo_2.png" 
+},
+{ 
+  "name": "HBO Signature (ENG)", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/42.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
 },
 { 
   "name": "HBO Signature (ENG)", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-107.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
 },
+
 { 
   "name": "HBO Pop", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-108.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" 
+},
+{ 
+  "name": "HBO Pop", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/38.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" 
 },
 { 
@@ -1172,6 +1456,11 @@
 { 
   "name": "HBO +", 
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17596.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png" 
+},
+{ 
+  "name": "HBO +", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/35.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png" 
 },
 { 
@@ -1214,6 +1503,12 @@
 },
 
 { 
+  "name": "De pelicula", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/18.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/De_Pel%C3%ADcula_Cl%C3%A1sico.png" 
+},
+
+{ 
   "name": "MC", 
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17513.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c4/MULTICINEMA.png/revision/latest?cb=20230304224643&path-prefix=es" 
@@ -1240,6 +1535,11 @@
   "logo": "https://www.tvporinternet2.com/imge/goldenplus.webp" 
 },
 { 
+  "name": "Golden Plus", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/29.m3u8", 
+  "logo": "https://www.tvporinternet2.com/imge/goldenplus.webp" 
+},
+{ 
   "name": "Golden Edge", 
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/69_.m3u8?token=6PKEXkRc33A9pWWDbwfHkA&expires=1776323885", 
   "logo": "https://www.tvporinternet2.com/imge/goldenedge.webp" 
@@ -1261,8 +1561,13 @@
 },
 
 { 
-  "name": "Universal comedy - no funciona", 
-  "url": "", 
+  "name": "Universal comedy - funciona", 
+  "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/41495.m3u8", 
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5f/Universal_Comedy.svg/revision/latest/scale-to-width-down/250?cb=20220311032038" 
+},
+{ 
+  "name": "Universal comedy - funciona", 
+  "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/41495.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5f/Universal_Comedy.svg/revision/latest/scale-to-width-down/250?cb=20220311032038" 
 },
 { 
@@ -1270,11 +1575,7 @@
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/364.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/universalcinema.webp" 
 },
-{ 
-  "name": "Universal premiere - no funciona", 
-  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/50_.m3u8?token=YZzaegTOIqQbZMo4Dkp1iQ&expires=1776327593", 
-  "logo": "https://www.tvporinternet2.com/imge/universalpremiere.webp" 
-},
+
 { 
   "name": "Universal premiere - funciona", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/366.m3u8", 
@@ -1299,6 +1600,11 @@
 { 
   "name": "Europa Europa - funciona", 
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17417.m3u8", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.oFHZbMh_HXONgH6JJpnThQHaJp?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "Europa Europa - funciona", 
+  "url": "http://visuales.xyz/live/tr9FPcWPeWy8/W28Lsh5kkqwG/440836.m3u8", 
   "logo": "https://tse2.mm.bing.net/th/id/OIP.oFHZbMh_HXONgH6JJpnThQHaJp?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
 
