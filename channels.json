@@ -109,13 +109,7 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png",
   "epg_id": "AmericaTV.ar"
 },
-{
-  "name": "TN (YouTube)",
-  "url": "https://youtu.be/cb12KmMMDJA",
-  "type": "youtube",
-  "logo": "https://images.seeklogo.com/logo-png/46/2/todo-noticias-logo-png_seeklogo-462511.png",
-  "epg_id": "TN.ar"
-},
+
 {
   "name": "TN",
   "url": "http://201.217.246.42:44310/Live/03fdb23d632ee0a05e1fbb871c0191ff/tn.playlist.m3u8",
@@ -138,20 +132,6 @@
 {
   "name": "A24 ",
   "url": "http://45.5.151.147:8000/play/a006/index.m3u8s",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
-  "epg_id": "A24.ar"
-},
-{
-  "name": "A24 (YouTube)",
-  "url": "https://youtu.be/ArKbAx1K-2U",
-  "type": "youtube",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
-  "epg_id": "A24.ar"
-},
-{
-  "name": "A24 (YouTube)",
-  "url": "https://www.youtube.com/embed/ArKbAx1K-2U?si=hNLIQk5iqWX-uS0U",
-  "type": "youtube",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/500px-A24-logo.svg.png",
   "epg_id": "A24.ar"
 },
@@ -239,14 +219,8 @@
 },
 
 { 
-  "name": "France 24 ENG", 
-  "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8", 
-  "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
-},
-{ 
-  "name": "France 24 (youtube)", 
-  "url": "https://youtu.be/Y-IlMeCCtIg", 
-  "type": "youtube", 
+  "name": "France 24", 
+  "url": "http://visuales.xyz:80/live/espanistv/uNUP5XEj7SBB/440831.m3u8", 
   "logo": "https://media.muckrack.com/groups/icons/7ZsxO5yi_400x4001.jpg" 
 },
 
@@ -307,15 +281,11 @@
   "logo": "https://television.com.ar/wp-content/uploads/2024/05/Metro-600x428-350x240-1.jpg" 
 },
 { 
-  "name": "Metro TV", 
+  "name": "Metro TV - canal 12", 
   "url": "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8", 
   "logo": "https://www.lyngsat.com/logo/tv/cc/canal-12-metro-tv-ar.png" 
 },
-{
-  "nombre": "Metro TV",
-  "logo": "https://www.lyngsat.com/logo/tv/cc/canal-12-metro-tv-ar.png",
-  "url": "http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0430"
-},
+
 { 
   "name": "Argentinisima", 
   "url": "https://stream1.sersat.com/hls/argentinisima.m3u8", 
@@ -368,11 +338,7 @@
   "url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_4.m3u8", 
   "logo": "https://th.bing.com/th/id/R.409d4e93b12906a2f640e144cdda2042?rik=lC4viGxrvgPXTg&pid=ImgRaw&r=0" 
 },
-{ 
-  "name": "Pasiones", 
-  "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/10_.m3u8?token=n0IC7IXjnaMaMkLZ-cBb-g&expires=1776326471", 
-  "logo": "https://www.tvporinternet2.com/imge/pasiones.webp" 
-},
+
 { 
   "name": "Pasiones", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/21.m3u8", 
@@ -388,11 +354,7 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17528.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
 },
-{ 
-  "name": "Tln Telenovelas",
-  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/51.m3u8", 
-  "logo": "https://www.tvporinternet2.com/imge/tlnovelas.webp" 
-},
+
 { 
   "name": "Tln Telenovelas",
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/12_.m3u8?token=HFNZPhL7LVWWe1a2a8nhpw&expires=1776326913", 
@@ -473,9 +435,20 @@
 },
 { 
   "name": "discovery world  - funciona", 
-  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/26.m3u8", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/440941.m3u8", 
   "logo": "https://tse2.mm.bing.net/th/id/OIP.c6t7qVXTmwNz0xK1NOqLKQHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" 
 },
+{ 
+  "name": "discovery world  - funciona", 
+  "url": "http://visuales.xyz/live/tr9FPcWPeWy8/W28Lsh5kkqwG/299219.m3u8", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.c6t7qVXTmwNz0xK1NOqLKQHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+{ 
+  "name": "discovery world 4k - funciona", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/440996.m3u8", 
+  "logo": "https://tse2.mm.bing.net/th/id/OIP.c6t7qVXTmwNz0xK1NOqLKQHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" 
+},
+
 { 
   "name": "discovery theater  - funciona", 
   "url": "http://181.78.82.6:46090/play/a071/index.m3u8", 
@@ -591,6 +564,11 @@
 { 
   "name": "DirecTV Sports", 
   "url": "https://x4bnd7lq.fubohd.com/dsports/mono.m3u8?token=71d2d18bbb162cc351c7ebaa1b6a61cb21140cf0-ad-1776316945-1776298945", 
+  "logo": "https://pbs.twimg.com/media/FhSdYd1WAAE8b5R.jpg" 
+},
+{ 
+  "name": "DirecTV Sports", 
+  "url": "http://cystematvmva.club:8080/live/64mgot1/989646416f/1075943.m3u8", 
   "logo": "https://pbs.twimg.com/media/FhSdYd1WAAE8b5R.jpg" 
 },
 { 
@@ -1427,16 +1405,25 @@
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/32.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hbo_2.png" 
 },
+
+{ 
+  "name": "HBO Signature Español", 
+  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-107.playlist.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
+},
+
+{ 
+  "name": "HBO Signature esp", 
+  "url": "http://cystematvmva.club:8080/live/64mgot1/989646416f/2584.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
+},
+
 { 
   "name": "HBO Signature (ENG)", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/42.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
 },
-{ 
-  "name": "HBO Signature (ENG)", 
-  "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-107.playlist.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/HBO_Signature.svg" 
-},
+
 
 { 
   "name": "HBO Pop", 
@@ -1523,6 +1510,11 @@
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17650.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
 },
+{ 
+  "name": "Golden - funciona", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/26.m3u8", 
+  "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
+},
 
 { 
   "name": "Golden", 
@@ -1542,6 +1534,11 @@
 { 
   "name": "Golden Edge", 
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/69_.m3u8?token=6PKEXkRc33A9pWWDbwfHkA&expires=1776323885", 
+  "logo": "https://www.tvporinternet2.com/imge/goldenedge.webp" 
+},
+{ 
+  "name": "Golden Edge", 
+  "url": "http://visuales.xyz:80/live/tr9FPcWPeWy8/W28Lsh5kkqwG/31041.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/goldenedge.webp" 
 },
 { 

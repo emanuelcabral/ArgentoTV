@@ -5,21 +5,72 @@
   box-sizing: border-box;
 }
 
+/* scrollbar inicia */
+
+/* ===== SCROLLBAR GLOBAL ===== */
+:root {
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb: linear-gradient(180deg, #19f0d8, #0bbcd6);
+  --scrollbar-hover: linear-gradient(180deg, #1affea, #0fd1c7);
+}
+
+/* Firefox (standard) */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #19f0d8 rgba(255,255,255,0.08);
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track (fondo) */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+  border-radius: 10px;
+}
+
+/* Thumb (la barra) */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(25, 240, 216, 0.5);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover);
+  box-shadow: 0 0 15px rgba(25, 240, 216, 0.8);
+}
+
+/* Active (cuando clickeas) */
+::-webkit-scrollbar-thumb:active {
+  background: #0aa3a3;
+}
+
+/* scrollbar fin */
+
 body {
   font-family: Arial, sans-serif;
-  background: #0f0f0f;
+  background-image: url(fondo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
 }
 
 header {
   padding: 10px;
-  background: #1c1c1c;
+  background: rgba(28, 28, 28, 0.7);
   height: 100px;
 }
 
 header h1 {
   margin: 0;
   font-size: 1.8em;
+  color: #fff000;
 }
 
 input {
@@ -40,9 +91,12 @@ main {
 /* LISTA DE CANALES */
 #channel-list {
   width: 30%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 130px);
   overflow-y: auto;
-  background: #111;
+  background: rgba(0, 128, 128, 0.642);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  margin: 15px;
 }
 
 /* CANAL */
@@ -79,6 +133,8 @@ main {
   justify-content: center;
   background: black;
   position: relative;
+  border-radius: 15px;
+  margin: 15px;
 }
 
 video {
@@ -101,6 +157,7 @@ video {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  border-radius: 0 0 15px 15px;
 }
 
 #overlay.show {
