@@ -159,6 +159,14 @@ function getEPG(channel) {
 // -----------------------------
 // 🔥 OVERLAY
 // -----------------------------
+// 🔥 PROGRESO
+function getProgress(p) {
+  if (!p?.start || !p?.stop) return 0;
+  const now = Date.now();
+  return Math.min(100, Math.max(0, ((now - p.start) / (p.stop - p.start)) * 100));
+}
+
+// 🔥 OVERLAY
 function showOverlay(channel) {
   if (!overlay) return;
 
@@ -168,19 +176,35 @@ function showOverlay(channel) {
   overlayName.textContent = channel.name;
   overlayLogo.src = channel.logo || '';
 
-  if (!epgList) {
-    overlayEpg.textContent = "Sin EPG disponible";
+  if (!epgList || !current) {
+    document.getElementById("overlay-title").textContent = "Sin programa actual";
+    document.getElementById("overlay-start").textContent = "";
+    document.getElementById("overlay-stop").textContent = "";
+    document.getElementById("overlay-progress-bar").style.width = "0%";
+    document.getElementById("overlay-category").textContent = "";
+    document.getElementById("overlay-desc").textContent = "";
   } else {
-    overlayEpg.textContent =
-      current?.title || "Sin programa actual";
+    document.getElementById("overlay-title").textContent = current.title;
+    document.getElementById("overlay-start").textContent =
+      new Date(current.start).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+    document.getElementById("overlay-stop").textContent =
+      new Date(current.stop).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+    document.getElementById("overlay-progress-bar").style.width = getProgress(current) + "%";
+    document.getElementById("overlay-category").textContent = current.category || "";
+    document.getElementById("overlay-desc").textContent = current.desc || "";
   }
+
+  // Datos técnicos desde channels.json
+  document.getElementById("overlay-resolution").textContent = channel.resolution || "HD";
+  document.getElementById("overlay-bitrate").textContent = channel.bitrate || "3.00 Mbps";
+  document.getElementById("overlay-audio").textContent = channel.audio || "Stereo";
 
   overlay.classList.add("show");
 
   clearTimeout(overlayTimeout);
   overlayTimeout = setTimeout(() => {
     overlay.classList.remove("show");
-  }, 3000);
+  }, 5000);
 }
 
 
@@ -209,7 +233,7 @@ function renderChannels(data) {
       "| CURRENT:", current
     );
 
-    let epgText = "Sin EPG";
+    let epgText = "Sin informacion";
 
     if (epgList && current?.title) {
       epgText = current.title;
@@ -221,7 +245,7 @@ function renderChannels(data) {
       <img src="${channel.logo || 'https://via.placeholder.com/40'}">
       <div>
         <span>${channel.name}</span>
-        <small style="display:block;color:${epgList ? 'gray' : 'red'};">
+        <small style="display:block;color:${epgList ? '#00ef03' : ''};">
           ${epgText}
         </small>
       </div>
@@ -335,3 +359,17 @@ async function init() {
 }
 
 init();
+
+// -----------------------------
+// 🔥 Local Time
+// -----------------------------
+const now = new Date();
+
+const horaLocal = now.toLocaleString("es-AR", {
+  timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit"
+});
+
+document.getElementById("hora").textContent = horaLocal;

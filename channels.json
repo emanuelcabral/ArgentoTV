@@ -1,15 +1,17 @@
 [
   {
-    "epg_url": "https://iptv-epg.org/files/epg-ar.xml"
+    "epg_url":[ "https://iptv-epg.org/files/epg-ar.xml", "https://iptv-epg.org/files/epg-bo.xml"]
   },
 
   {
     "name": "canal 7 jujuy",
+    "epg_id": "Canal7Jujuy.ar",
     "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w1611706458_b1146880.m3u8",
     "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l_ZC_dWMMdsSFdYvD6f0u4QKOWi6ca8oLV6y1IjMZiVA=s160-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "canal 7 - jujuy",
+    "epg_id": "TNT.mx",
     "url": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8",
     "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l_ZC_dWMMdsSFdYvD6f0u4QKOWi6ca8oLV6y1IjMZiVA=s160-c-k-c0x00ffffff-no-rj"
   },
@@ -262,7 +264,7 @@
   "info": "Internacional Alemania HD", 
   "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png",
-  "epg_id": "Dw.ar"
+  "epg_id": "DW.bo"
 },
 
 { 
@@ -436,13 +438,13 @@
   "name": "Discovery ID", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-42.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png",
-  "epg_id": "DiscoveryID.ar"
+  "epg_id": "InvestigationDiscovery.ar"
 },
 { 
   "name": "Discovery ID", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/28.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png",
-  "epg_id": "DiscoveryID.ar"
+  "epg_id": "InvestigationDiscovery.ar"
 },
 { 
   "name": "H&H Home and Health", 
@@ -1024,13 +1026,13 @@
 
 { 
   "name": "Gourmet", 
-  "epg_id": "elgourmet", 
+  "epg_id": "ElGourmet.ar", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-25.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png" 
 },
 { 
   "name": "Gourmet", 
-  "epg_id": "elgourmet", 
+  "epg_id": "ElGourmet.ar", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/81.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png" 
 },
@@ -1056,63 +1058,63 @@
 
 { 
   "name": "baby shark", 
-  "epg_id": "babysharktv", 
+  "epg_id": "BabyTV.ar", 
   "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_a4kM1YeRi0MBK0Ou9-A4lnUMI6ESU9Q3ig&s" 
 },
 
 { 
   "name": "Paka Paka", 
-  "epg_id": "pakapaka.ar", 
+  "epg_id": "Pakapaka.ar", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-36.playlist.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3O6FP8StPKySG3Rrnh8HtTmlh8CWEmLOj7Q&s" 
 },
 { 
   "name": "paka paka", 
-  "epg_id": "pakapaka.ar", 
+  "epg_id": "Pakapaka.ar", 
   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-36_400.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3O6FP8StPKySG3Rrnh8HtTmlh8CWEmLOj7Q&s" 
 },
 { 
   "name": "paka paka", 
-  "epg_id": "pakapaka.ar", 
+  "epg_id": "Pakapaka.ar", 
   "url": "https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-100056.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3O6FP8StPKySG3Rrnh8HtTmlh8CWEmLOj7Q&s" 
 },
 
 { 
   "name": "Cartoonito", 
-  "epg_id": "cartoonito", 
+  "epg_id": "Cartoonito.bo", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-30.playlist.m3u8", 
   "logo": "https://www.animationmagazine.net/wordpress/wp-content/uploads/cartoonito-logo-confetti.jpg" 
 },
 { 
   "name": "Cartoonito", 
-  "epg_id": "cartoonito", 
+  "epg_id": "Cartoonito.ar", 
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-30_720.m3u8", 
   "logo": "https://www.animationmagazine.net/wordpress/wp-content/uploads/cartoonito-logo-confetti.jpg" 
 },
 { 
   "name": "Tooncast",
-  "epg_id": "tooncast", 
+  "epg_id": "Tooncast.ar", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/383.m3u8", 
-  "logo": "https://es.wikipedia.org/wiki/Archivo:Logo_de_Tooncast.svg" 
+  "logo": "https://logowik.com/content/uploads/images/tooncast4341.jpg" 
 },
 { 
   "name": "Cartoon Network", 
-  "epg_id": "cartoonnetwork", 
+  "epg_id": "CartoonNetwork.ar", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-31.playlist.m3u8", 
   "logo": "https://www.citypng.com/public/uploads/preview/cartoon-network-cn-logo-hd-png-701751694708568zxoq18qbzl.png" 
 },
 { 
   "name": "Cartoon Network", 
-  "epg_id": "cartoonnetwork", 
+  "epg_id": "CartoonNetwork.ar", 
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-31_720.m3u8", 
   "logo": "https://www.citypng.com/public/uploads/preview/cartoon-network-cn-logo-hd-png-701751694708568zxoq18qbzl.png" 
 },
 { 
   "name": "Cartoon Network", 
-  "epg_id": "cartoonnetwork", 
+  "epg_id": "cartoonNetwork.ar", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/80.m3u8", 
   "logo": "https://www.citypng.com/public/uploads/preview/cartoon-network-cn-logo-hd-png-701751694708568zxoq18qbzl.png" 
 },
@@ -1266,7 +1268,7 @@
 
 { 
   "name": "USA syfy - funciona", 
-  "epg_id": "Syfy.ar", 
+  "epg_id": "USANetwork.bo", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/371.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/usa.webp" 
 },
@@ -1360,7 +1362,7 @@
   "name": "A&E", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-71.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/3840px-A%26E_Network_logo.svg.png",
-  "epg_id": "AandE.ar"
+  "epg_id": "A&E.mx"
 },
 { 
   "name": "A&E", 
@@ -1382,10 +1384,10 @@
   "epg_id": "WarnerChannel.ar"
 },
 { 
-  "name": "Warner TV", 
+  "name": "Warner TV mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/66.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png",
-  "epg_id": "WarnerChannel.ar"
+  "epg_id": "WarnerChannel.mx"
 },
 
 { 
@@ -1395,10 +1397,10 @@
   "epg_id": "AMC.ar"
 },
 { 
-  "name": "AMC", 
+  "name": "AMC mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/08.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/AMC_logo_2016.svg",
-  "epg_id": "AMC.ar"
+  "epg_id": "AMC.mx"
 },
 { 
   "name": "FX", 
@@ -1407,30 +1409,29 @@
   "epg_id": "FX.ar"
 },
 { 
-  "name": "FX", 
-  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/23.m3u8", 
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg",
-  "epg_id": "Fx.ar"
-},
-
-{ 
   "name": "FX FHD", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-78.playlist.m3u8", 
   "logo": "https://www.pngkey.com/png/full/302-3027373_fx-hd-logo-fx-hd-channel-logo.png",
-  "epg_id": "Fx.ar"
+  "epg_id": "FX.ar"
+},
+{ 
+  "name": "FX mx", 
+  "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/23.m3u8", 
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg",
+  "epg_id": "FX.mx"
 },
 
 { 
-  "name": "Cinemax", 
+  "name": "Cinemax mx", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-61.playlist.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",
-  "epg_id": "Cinemax.ar"
+  "epg_id": "Cinemax.mx"
 },
 { 
-  "name": "Cinemax", 
+  "name": "Cinemax mx", 
   "url": "http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-61_720.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",
-  "epg_id": "Cinemax.ar"
+  "epg_id": "Cinemax.mx"
 },
 { 
   "name": "Cinemax", 
@@ -1464,10 +1465,10 @@
   "epg_id": "Cinecanal.ar"
 },
 { 
-  "name": "Cinecanal", 
+  "name": "Cinecanal mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/10.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png",
-  "epg_id": "Cinecanal.ar"
+  "epg_id": "Cinecanal.mx"
 },
 
 { 
@@ -1483,10 +1484,10 @@
   "epg_id": "TNT.ar"
 },
 { 
-  "name": "TNT", 
+  "name": "TNT mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/93.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/TNT_Logo_2016.svg",
-  "epg_id": "TNT.ar"
+  "epg_id": "TNT.mx"
 },
 
 { 
@@ -1502,10 +1503,10 @@
   "epg_id": "StudioUniversal.ar"
 },
 { 
-  "name": "Studio Universal", 
+  "name": "Studio Universal mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/54.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/3840px-Logo_Studio_Universal.svg.png",
-  "epg_id": "StudioUniversal.ar"
+  "epg_id": "StudioUniversal.mx"
 },
 { 
   "name": "Star Channel", 
@@ -1539,10 +1540,10 @@
   "epg_id": "Space.ar"
 },
 { 
-  "name": "Space", 
+  "name": "Space mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/51.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/SpaceLogo.svg",
-  "epg_id": "Space.ar"
+  "epg_id": "Space.mx"
 },
 
 { 
@@ -1558,10 +1559,10 @@
   "epg_id": "Sony.ar"
 },
 { 
-  "name": "Sony channel", 
+  "name": "Sony channel mx", 
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/47.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png",
-  "epg_id": "Sony.ar"
+  "epg_id": "Sony.mx"
 },
 
 { 
@@ -1800,7 +1801,7 @@
 
 { 
   "name": "Golden - funciona", 
-  "epg_id": "GOLDEN",
+  "epg_id": "Golden.ar",
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17650.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/golden.webp" 
 },
@@ -1820,13 +1821,13 @@
 
 { 
   "name": "Golden Plus", 
-  "epg_id": "GOLDEN_PLUS",
+  "epg_id": "GoldenPlus.ar",
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/68_.m3u8?token=CC9_8kdTjJu0zvymBt5hyQ&expires=1776323406", 
   "logo": "https://www.tvporinternet2.com/imge/goldenplus.webp" 
 },
 { 
   "name": "Golden Plus", 
-  "epg_id": "GOLDEN_PLUS",
+  "epg_id": "GoldenPlus.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/29.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/goldenplus.webp" 
 },
@@ -1846,65 +1847,65 @@
 
 { 
   "name": "Golden Premier", 
-  "epg_id": "GOLDEN_PREMIER",
+  "epg_id": "GoldenPremier.ar",
   "url": "https://regionales.saohgdasregions.fun:9092/OTguOTcuMTM0Ljk1/70_.m3u8?token=zsojCZESKl1U9gjOvNzGpQ&expires=1776323661", 
   "logo": "https://www.tvporinternet2.com/imge/goldenpremier.webp" 
 },
 { 
   "name": "Golden Premier - funciona", 
-  "epg_id": "GOLDEN_PREMIER",
+  "epg_id": "GoldenPremier.ar",
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17523.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/goldenpremier.webp" 
 },
 { 
   "name": "Golden Premier - funciona", 
-  "epg_id": "GOLDEN_PREMIER",
+  "epg_id": "GoldenPremier.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/362.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/goldenpremier.webp" 
 },
 { 
   "name": "Universal comedy - funciona", 
-  "epg_id": "UNIVERSAL_COMEDY",
+  "epg_id": "UniversalComedy.ar",
   "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/41495.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5f/Universal_Comedy.svg/revision/latest/scale-to-width-down/250?cb=20220311032038" 
 },
 { 
   "name": "Universal comedy - funciona", 
-  "epg_id": "UNIVERSAL_COMEDY",
+  "epg_id": "UniversalComedy.ar",
   "url": "http://smarterstv99.dyndns.tv:25461/live/N3SON3XCHANGE@NOW/MBNFCuu7ch@D89h6jx22Y/41495.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5f/Universal_Comedy.svg/revision/latest/scale-to-width-down/250?cb=20220311032038" 
 },
 
 { 
   "name": "Universal cinema - funciona", 
-  "epg_id": "UNIVERSAL_CINEMA",
+  "epg_id": "UniversalCinema.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/364.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/universalcinema.webp" 
 },
 
 { 
   "name": "Universal premiere - funciona", 
-  "epg_id": "UNIVERSAL_PREMIERE",
+  "epg_id": "UniversalPremiere.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/366.m3u8", 
   "logo": "https://www.tvporinternet2.com/imge/universalpremiere.webp" 
 },
 
 { 
   "name": "Universal crime - funciona", 
-  "epg_id": "UNIVERSAL_CRIME",
+  "epg_id": "UniversalCrime.ar",
   "url": "http://liketv.pro/live/federicosala@gmail.com/GwXxyebEf5/17629.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Universal_Crime.svg/revision/latest/scale-to-width-down/250?cb=20220311032018" 
 },
 { 
   "name": "Universal crime - funciona", 
-  "epg_id": "UNIVERSAL_CRIME",
+  "epg_id": "UniversalCrime.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/365.m3u8", 
   "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Universal_Crime.svg/revision/latest/scale-to-width-down/250?cb=20220311032018" 
 },
 
 { 
   "name": "Universal reality - funciona", 
-  "epg_id": "UNIVERSAL_REALITY",
+  "epg_id": "UniversalReality.ar",
   "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/372.m3u8", 
   "logo": "https://ni.codice.tv/wp-content/uploads/2022/05/u-reality.png" 
 },
@@ -1938,14 +1939,14 @@
 
 { 
   "name": "Frecuencia musical tv", 
-  "epg_id": "FRECUENCIA_MUSICAL_TV",
+  "epg_id": "FrecuenciaMusicalTV.ar",
   "url": "https://s2.tvdatta.com:3753/hybrid/play.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSje85UeM53ryOshSR3o7E5NyU0euKVAd-xqQ&s" 
 },
 
 { 
   "name": "Radio Mitre (youtube)", 
-  "epg_id": "RADIO_MITRE",
+  "epg_id": "RadioMitre.ar",
   "url": "https://www.youtube.com/watch?v=ybXIVVg6epw", 
   "type":"youtube",
   "logo": "https://yt3.ggpht.com/LxXG-3oOpCykA27GwVGpcrWDmfe1KVvTy_69EjBBCkpUAtTjJhNGWmW0WVubfZjOEP8JQ5FO=s88-c-k-c0x00ffffff-no-rj" 
@@ -1953,7 +1954,7 @@
 
 { 
   "name": "Radio POP (youtube)", 
-  "epg_id": "RADIO_POP",
+  "epg_id": "PopRadio.ar",
   "url": "https://www.youtube.com/watch?v=XYwIrPQd25Q", 
   "type":"youtube",
   "logo": "https://yt3.ggpht.com/oCZyfZCYBsoQL6GW90v-0k5wkC1oZV-cNQubNML72Kat7I0Jzq2YdPZhGjsFltBw8o4cIlJZtw=s88-c-k-c0x00ffffff-no-rj" 
@@ -1961,21 +1962,21 @@
 
 { 
   "name": "Radio Latina", 
-  "epg_id": "RADIO_LATINA",
+  "epg_id": "RadioLatina.ar",
   "url": "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8", 
   "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/LatinaFM.png" 
 },
 
 { 
   "name": "Tierra Mia", 
-  "epg_id": "TIERRA_MIA",
+  "epg_id": "TierraMiaTV.ar",
   "url": "https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/main.m3u8", 
   "logo": "https://serenotv.com/wp-content/uploads/2021/12/canal-tierramia-en-vivo.jpg" 
 },
 
 { 
   "name": "Music Top", 
-  "epg_id": "MUSIC_TOP",
+  "epg_id": "Musictop.ar",
   "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8", 
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkLJHApATNTJtN-sKj66Q91X66RBA11TYcbg&s" 
 },
@@ -1991,21 +1992,21 @@
   "name": "Quiero Musica (1080p)", 
   "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-51.playlist.m3u8", 
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPU_06UNzQCAR8_4sb0je1y456h1iJPMrSTFsSLiboQuwXcf9-QUZf-OOBOgC8JTBNSPXSQBEhyphenhyphenjVdZSiuKSSbVmJxizCvVPRZPaxURbdFNwHtHTW9RBF1jdcRuXrPnrCDmkq0xhHZn1M/s350/quiero.png",
-  "epg_id": "QuieroMusica.ar"
+  "epg_id": "Quiero.ar"
 },
 
 { 
   "name": "Quiero Musica", 
   "url": "http://201.217.246.42:44310/Live/d93a7c495cb5f5d236b25a3ffea95003/local-51.playlist.m3u8", 
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPU_06UNzQCAR8_4sb0je1y456h1iJPMrSTFsSLiboQuwXcf9-QUZf-OOBOgC8JTBNSPXSQBEhyphenhyphenjVdZSiuKSSbVmJxizCvVPRZPaxURbdFNwHtHTW9RBF1jdcRuXrPnrCDmkq0xhHZn1M/s350/quiero.png",
-  "epg_id": "QuieroMusica.ar"
+  "epg_id": "Quiero.ar"
 },
 
 { 
   "name": "cm  - no funciona", 
   "url": "https://vmf.edge-apps.net/embed/live.php?streamname=CM_CanaldelaMusica-100044", 
   "logo": "https://directostv.teleame.com/wp-content/uploads/2020/10/CM-El-Canal-de-la-Musica-en-vivo-Online.png",
-  "epg_id": "CM.ar"
+  "epg_id": "CanalDeLaMusica.ar"
 },
 
 { 
