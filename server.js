@@ -1,75 +1,68 @@
-// server.js
 import express from "express";
 import fetch from "node-fetch";
 import { XMLParser, XMLBuilder } from "fast-xml-parser";
+import cors from "cors";
 
 const app = express();
+app.use(cors()); // habilita CORS
 
-const parser = new XMLParser();
-const builder = new XMLBuilder();
+const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "" });
+const builder = new XMLBuilder({ ignoreAttributes: false });
 
 app.get("/epg", async (req, res) => {
   try {
-    // 🔥 descargamos todas las fuentes EPG
-    const [rAr, rBo, rCl, rMx, rAr2] = await Promise.all([
-      fetch("https://iptv-epg.org/files/epg-ar.xml"),
-      fetch("https://iptv-epg.org/files/epg-bo.xml"),
-      fetch("https://iptv-epg.org/files/epg-cl.xml"),
-      fetch("https://iptv-epg.org/files/epg-mx.xml"),
-      fetch("https://iptv-epg.org/files/epg-ar2.xml") // otro feed argentino
-    ]);
+    const feeds = [
+      { url: "https://www.open-epg.com/files/argentina.xml", tag: "AR2" },
+      { url: "https://iptv-epg.org/files/epg-ar.xml", tag: "AR" },
+      { url: "https://iptv-epg.org/files/epg-cl.xml", tag: "CL" },
+      { url: "https://iptv-epg.org/files/epg-mx.xml", tag: "MX" },
+      { url: "https://iptv-epg.org/files/epg-pe.xml", tag: "PE" },
+      { url: "https://iptv-epg.org/files/epg-es.xml", tag: "ES" },
+      { url: "https://iptv-epg.org/files/epg-eu.xml", tag: "Eu" },
+      { url: "https://iptv-epg.org/files/epg-bo.xml", tag: "BO" }
+    ];
 
-    const [xmlAr, xmlBo, xmlCl, xmlMx, xmlAr2] = await Promise.all([
-      rAr.text(), rBo.text(), rCl.text(), rMx.text(), rAr2.text()
-    ]);
-
-    const epgAr  = parser.parse(xmlAr);
-    const epgBo  = parser.parse(xmlBo);
-    const epgCl  = parser.parse(xmlCl);
-    const epgMx  = parser.parse(xmlMx);
-    const epgAr2 = parser.parse(xmlAr2);
+    const responses = await Promise.all(feeds.map(f => fetch(f.url)));
+    const xmls = await Promise.all(responses.map(r => r.text()));
+    const epgs = xmls.map(x => parser.parse(x));
 
     const channelsMap = new Map();
     const programmes = [];
 
-    // 🔥 función robusta para procesar cualquier feed
-    const processEPG = (epg, tag) => {
-      if (!epg?.tv) {
-        console.warn(`Feed ${tag} sin nodo <tv>`);
-        return;
-      }
+    epgs.forEach((epg, i) => {
+      if (!epg.tv) return;
+      const chs = [].concat(epg.tv.channel || []);
+      const progs = [].concat(epg.tv.programme || []);
 
-      const chs = epg.tv.channel || [];
-      const progs = epg.tv.programme || [];
+      chs.forEach(ch => ch?.id && channelsMap.set(ch.id, ch));
+      progs.forEach(p => p?.channel && programmes.push(p));
 
-      for (const ch of chs) {
-        channelsMap.set(ch.id, ch);
-      }
-      for (const prog of progs) {
-        programmes.push(prog);
-      }
+      console.log(`Feed ${feeds[i].tag}: ${chs.length} canales, ${progs.length} programas`);
+    });
 
-      console.log(`Feed ${tag}: ${chs.length} canales, ${progs.length} programas`);
-    };
-
-    // Procesamos cada fuente
-    processEPG(epgAr, "AR");
-    processEPG(epgBo, "BO");
-    processEPG(epgCl, "CL");
-    processEPG(epgMx, "MX");
-    processEPG(epgAr2, "AR2");
-
+    // 🔥 reconstruimos XML con atributos
     const finalEPG = {
       tv: {
-        channel: [...channelsMap.values()],
-        programme: programmes
+        "@_source-info-name": "IPTV-EPG.org",
+        "@_source-info-url": "https://iptv-epg.org",
+        channel: [...channelsMap.values()].map(ch => ({
+          "@_id": ch.id,
+          "display-name": ch["display-name"],
+          icon: { "@_src": ch.icon?.src || "" }
+        })),
+        programme: programmes.map(p => ({
+          "@_start": p.start,
+          "@_stop": p.stop,
+          "@_channel": p.channel,
+          title: p.title,
+          desc: p.desc
+        }))
       }
     };
 
     const xmlFinal = builder.build(finalEPG);
 
     res.set("Content-Type", "application/xml");
-    res.set("Access-Control-Allow-Origin", "*");
     res.send(xmlFinal);
 
   } catch (err) {
@@ -78,6 +71,4 @@ app.get("/epg", async (req, res) => {
   }
 });
 
-app.listen(3000, () =>
-  console.log("Proxy EPG en http://localhost:3000/epg")
-);
+app.listen(3000, () => console.log("EPG XML en http://localhost:3000/epg"));

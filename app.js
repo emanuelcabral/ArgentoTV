@@ -241,22 +241,31 @@ function renderChannels(data) {
       epgText = "Sin programa actual";
     }
 
-    div.innerHTML = `
-      <img src="${channel.logo || 'https://via.placeholder.com/40'}">
-      <div>
-        <span>${channel.name}</span>
-        <small style="display:block;color:${epgList ? '#00ef03' : ''};">
-          ${epgText}
-        </small>
-      </div>
+    // 🔥 IMG FIX
+    const img = document.createElement("img");
+    img.src = channel.logo || "https://via.placeholder.com/40";
+    img.referrerPolicy = "no-referrer";
+    img.onerror = () => {
+      img.src = "https://via.placeholder.com/40";
+    };
+
+    // 🔥 TEXTO
+    const info = document.createElement("div");
+    info.innerHTML = `
+      <span>${channel.name}</span>
+      <small style="display:block;color:${epgList ? '#00ef03' : ''};">
+        ${epgText}
+      </small>
     `;
+
+    div.appendChild(img);
+    div.appendChild(info);
 
     div.onclick = () => playChannel(channel);
 
     list.appendChild(div);
   });
 }
-
 
 // -----------------------------
 // 🔥 PLAYER
@@ -279,17 +288,34 @@ function playChannel(channel) {
     player.prepend(video);
   }
 
-  if (channel.type === "youtube" || channel.url.includes("youtube")) {
-    const id = channel.url.match(/(?:youtu\.be\/|v=)([^&]+)/)?.[1];
-    if (!id) return;
+if (channel.type === "youtube" || channel.url.includes("youtube")) {
+  const id = channel.url.match(/(?:youtu\.be\/|v=)([^&]+)/)?.[1];
+  if (!id) return;
 
-    player.innerHTML = `
-      <iframe width="100%" height="100%"
-      src="https://www.youtube.com/embed/${id}?autoplay=1"
-      allowfullscreen></iframe>
-    `;
-    return;
-  }
+  player.innerHTML = `
+    <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/${id}?autoplay=1"
+    allowfullscreen></iframe>
+  `;
+  return;
+}
+
+// 🔥 NUEVO: soporte iframe genérico
+if (channel.type === "iframe") {
+  player.innerHTML = `
+    <iframe 
+      width="100%" 
+      height="100%" 
+      src="${channel.url}"
+      frameborder="0"
+      allow="autoplay; encrypted-media; fullscreen"
+      allowfullscreen>
+    </iframe>
+  `;
+
+  showOverlay(channel);
+  return;
+}
 
   if (window.Hls && Hls.isSupported()) {
     hls = new Hls();
@@ -363,13 +389,20 @@ init();
 // -----------------------------
 // 🔥 Local Time
 // -----------------------------
-const now = new Date();
+function actualizarHora() {
+  const now = new Date();
 
-const horaLocal = now.toLocaleString("es-AR", {
-  timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit"
-});
+  const horaLocal = now.toLocaleString("es-AR", {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    hour: "2-digit",
+    minute: "2-digit"
+  });
 
-document.getElementById("hora").textContent = horaLocal;
+  document.getElementById("hora").textContent = horaLocal;
+}
+
+// Ejecutar una vez inmediatamente
+actualizarHora();
+
+// Actualizar cada segundo
+setInterval(actualizarHora, 1000);
